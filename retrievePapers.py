@@ -111,8 +111,6 @@ def get_references(paper):
         if response.status_code == 200:
             data = response.json()
             temp_references.append(data)
-    #references[paper['display_name']] = temp_references
-    #paper['referenced_work'] = temp_references
     print("References fetched!")
     return temp_references
 
