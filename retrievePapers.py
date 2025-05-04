@@ -1,6 +1,8 @@
 import requests
 from scipy.stats import pearsonr
 import novelpy
+from novelpy.indicators import Uzzi2013
+from novelpy.utils.cooc_utils import create_cooc
 import json
 import os
 from collections import defaultdict
@@ -103,7 +105,7 @@ def citation_scores(paper):
 def get_references(paper):
     references_ofPaper = paper.get('referenced_works') # make a list of references
     modified_references = []
-    for i, ref in enumerate(references_ofPaper, 1):
+    for ref in references_ofPaper:
         work_id = ref.split('/')[-1]
         url = f"https://api.openalex.org/works/{work_id}" 
         response = requests.get(url) # Get the object of the reference paper
@@ -136,22 +138,14 @@ def pearson():
     coeff_topics = pearsonr(citation_counts_P, num_of_topics)
     print("Pearson correlation of number of topics: ", coeff_topics.statistic)
 
-import os
-import json
-import novelpy
-from novelpy.indicators import Uzzi2013
-from novelpy.utils.cooc_utils import create_cooc
-
 def save_papers_by_year(papers, output_dir):
     """
-    Save papers into folders by year as required by Novelpy.
+    Save papers into files by year as required by Novelpy.
     Each year gets its own JSON file with all papers from that year.
     """
     papers_by_year = {}
     for paper in papers:
         year = paper['publication_year']
-        if year is None:
-            year = "Unknown"
         papers_by_year.setdefault(year, []).append(paper)
 
     for year, year_papers in papers_by_year.items():
@@ -180,7 +174,6 @@ def get_novelty_indicators(article, all_references, focal_year, paper_id):
     )
     cooc.main()
 
-    results = {}
     for year in range(focal_year - 10, focal_year):
         score = Uzzi2013(
             collection_name=f"papers/{paper_id}",
@@ -189,10 +182,8 @@ def get_novelty_indicators(article, all_references, focal_year, paper_id):
             variable="referenced_works",
             sub_variable="topics",
             focal_year=year,
-            list_ids=[article['id']]  # Only evaluate novelty of the target article
         )
         print(score.get_indicator())
-        # indicators = score.get_indicator()
 
 
 # Defining main function
