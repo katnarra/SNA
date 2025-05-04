@@ -1,6 +1,5 @@
 import requests
 from scipy.stats import pearsonr
-import novelpy
 from novelpy.indicators import Uzzi2013
 from novelpy.utils.cooc_utils import create_cooc
 import json
@@ -14,9 +13,6 @@ params = {
     "filter": "type:article",
     "per-page": 200
 }
-
-references = [] # a list including all the jsons of references per paper, so that they do not need to be
-# modified several times
 
 citation_counts_P = [] # how often a paper is cited by other papers
 avg_ref_citationScore = [] # average citation count of reference list
@@ -63,8 +59,8 @@ def citation_scores(paper):
 
     topics_set = set() # For step 4
 
-    print("Fetching references...")
     references_ofPaper = get_references(paper)
+    paper['referenced_works'] = references_ofPaper
     for i, data in enumerate(references_ofPaper, 1):
         citation_percentile = data.get('citation_normalized_percentile')
         if citation_percentile is not None: 
@@ -77,10 +73,9 @@ def citation_scores(paper):
         if data['topics']: # Step 4: Check that there are topics for the given reference
             temp_set = set()
             for topic in data['topics']:
-                temp_set.add(topic)
+                temp_set.add(topic['display_name'])
             topics_set = topics_set | temp_set # Step 4: Add the topics if they are not already included in topics_set
         print(f"{i}. {data.get('display_name')}, citation percentile: {data['citation_normalized_percentile']['value']}")
-    print("References fetched!")
     
     print(f"The {len(topics_set)} topics of references are: {topics_set}")
     num_of_topics.append(len(topics_set)) # Step 4: we wanted to know how many topics in each paper in list P
@@ -103,24 +98,23 @@ def citation_scores(paper):
     min_ref_citationScore.append(min)
 
 def get_references(paper):
-    references_ofPaper = paper.get('referenced_works') # make a list of references
-    modified_references = []
+    print("Fetching the references...")
+    try:
+        references_ofPaper = paper['referenced_works'] # make a list of references
+    except:
+        return
+    temp_references = []
     for ref in references_ofPaper:
         work_id = ref.split('/')[-1]
         url = f"https://api.openalex.org/works/{work_id}" 
         response = requests.get(url) # Get the object of the reference paper
         if response.status_code == 200:
-            new_ref = {}
             data = response.json()
-            new_ref['display_name'] = data['display_name']
-            new_ref['citation_normalized_percentile'] = data['citation_normalized_percentile']
-            new_ref['publication_year'] = data['publication_year']
-            new_ref['id'] = data['id']
-            if 'topics' in data:
-                new_ref['topics'] = [topic['display_name'] for topic in data['topics']]
-            modified_references.append(new_ref)
-    references.append(modified_references)
-    return modified_references
+            temp_references.append(data)
+    #references[paper['display_name']] = temp_references
+    #paper['referenced_work'] = temp_references
+    print("References fetched!")
+    return temp_references
 
 # Step 3: Calculate the Pearson coefficients between the citation 
 # of each paper in set P and each of: average citation count of reference list, 
@@ -138,36 +132,53 @@ def pearson():
     coeff_topics = pearsonr(citation_counts_P, num_of_topics)
     print("Pearson correlation of number of topics: ", coeff_topics.statistic)
 
-def save_papers_by_year(papers, output_dir):
+def save_papers_by_year(paper):
     """
     Save papers into files by year as required by Novelpy.
     Each year gets its own JSON file with all papers from that year.
     """
-    papers_by_year = {}
-    for paper in papers:
-        year = paper['publication_year']
-        papers_by_year.setdefault(year, []).append(paper)
 
-    for year, year_papers in papers_by_year.items():
-        year_dir = os.path.join(output_dir)
-        os.makedirs(year_dir, exist_ok=True)
-        with open(os.path.join(year_dir, f"{year}.json"), 'w', encoding='utf-8') as f:
-            json.dump(year_papers, f)
+    output_dir = "Data/docs/papers"
+    os.makedirs(output_dir, exist_ok=True)
 
-def get_novelty_indicators(article, all_references, focal_year, paper_id):
-    base_dir = f"Data/docs/papers/{paper_id}"
-    os.makedirs(base_dir, exist_ok=True)
+    papers_by_year = defaultdict(list)
 
-    # Add the target article itself into the dataset
-    all_papers = all_references + [article]
-    save_papers_by_year(all_papers, base_dir)
+    papers_by_year[paper['publication_year']].append(paper)
 
+    for ref in paper['referenced_works']:
+        ref['referenced_works'] = get_references(ref) # the references of the reference also need to be in dict format containing the year
+        # so this will modify them, though it will take some time...
+
+        print(ref)
+        papers_by_year[ref['publication_year']].append(ref)
+    
+
+    for year, papers in papers_by_year.items():
+        file_path = os.path.join(output_dir, f"{year}.json")
+        if os.path.exists(file_path):
+            with open(file_path, 'r', encoding='utf-8') as f:
+                try:
+                    existing = json.load(f)
+                    if not isinstance(existing, list):
+                        existing = [existing]
+                except:
+                    existing = []
+        else:
+            existing = []
+
+        existing_ids = {p['id'] for p in existing if isinstance(p, dict)}
+        combined = existing + [p for p in papers if p['id'] not in existing_ids]
+
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(combined, f, indent=2)
+
+def get_novelty_indicators(focal_year):
     # Create co-occurrence network for references
     cooc = create_cooc(
-        collection_name=f"papers/{paper_id}",
+        collection_name="papers",
         year_var="publication_year",
         var="referenced_works",
-        sub_var="topics",
+        sub_var="id",
         time_window=range(focal_year - 10, focal_year),
         weighted_network=True,
         self_loop=True
@@ -176,11 +187,11 @@ def get_novelty_indicators(article, all_references, focal_year, paper_id):
 
     for year in range(focal_year - 10, focal_year):
         score = Uzzi2013(
-            collection_name=f"papers/{paper_id}",
+            collection_name="papers",
             id_variable="id",
             year_variable="publication_year",
             variable="referenced_works",
-            sub_variable="topics",
+            sub_variable="id",
             focal_year=year,
         )
         print(score.get_indicator())
@@ -192,11 +203,11 @@ def main():
     for paper in P:
         citation_scores(paper) # Step 2, 3, 4
     pearson() # Step 3, 4
+
     for i, paper in enumerate(P, 1):
-        print(f"Trying uzzi for paper {i}")
-        paper['referenced_works'] = references[i-1]
-        get_novelty_indicators(paper, references[i-1], paper['publication_year'], i)
+        print(f"Trying to add paper {i}")
+        save_papers_by_year(paper)
+        get_novelty_indicators(paper['publication_year'])
 
 if __name__=="__main__":
     main()
-
