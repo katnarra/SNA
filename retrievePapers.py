@@ -98,19 +98,31 @@ def citation_scores(paper):
     min_ref_citationScore.append(min)
 
 def get_references(paper):
+
+    # let's ensure novelpy compatibility here
+    if 'publication_year' not in paper:
+        paper['publication_year'] = 0 # because papers with no publication year are useless in novelpy    
+    if not 'year' in paper:
+        paper['year'] = paper['publication_year']
+    
+    #if not isinstance(paper['id'], int):
+    #    paper['id'] = int(paper['id'].split('/')[-1].lstrip('W'))
     print("Fetching the references...")
-    try:
-        references_ofPaper = paper['referenced_works'] # make a list of references
-    except:
-        return
+    references_ofPaper = paper.get('referenced_works', []) # make a list of references
     temp_references = []
     for ref in references_ofPaper:
-        work_id = ref.split('/')[-1]
+        if not isinstance(ref, dict):
+            work_id = ref.split('/')[-1]
+        else:
+            work_id = 'W' + str(ref['id'])
         url = f"https://api.openalex.org/works/{work_id}" 
         response = requests.get(url) # Get the object of the reference paper
         if response.status_code == 200:
             data = response.json()
             temp_references.append(data)
+            data['year'] = data.get('publication_year', 0)
+            data['id'] = int(data['id'].split('/')[-1].lstrip('W'))
+            print("Data is: ", data)
     print("References fetched!")
     return temp_references
 
@@ -141,15 +153,25 @@ def save_papers_by_year(paper):
 
     papers_by_year = defaultdict(list)
 
-    papers_by_year[paper['publication_year']].append(paper)
+    if not isinstance(paper['id'], int):
+        paper['id'] = int(paper['id'].split('/')[-1].lstrip('W'))
+    if not 'year' in paper:
+        paper['year'] = paper.get('publication_year', 0)
 
-    for ref in paper['referenced_works']:
-        ref['referenced_works'] = get_references(ref) # the references of the reference also need to be in dict format containing the year
-        # so this will modify them, though it will take some time...
+    if paper.get('referenced_works'):
+        papers_by_year[paper['publication_year']].append(paper)
 
-        print(ref)
-        papers_by_year[ref['publication_year']].append(ref)
-    
+        for ref in paper['referenced_works']:
+            ref['referenced_works'] = get_references(ref) or [] # the references of the reference also need to be in dict format containing the year
+            # so this will modify them, though it will take some time...
+
+            if not isinstance(ref['id'], int):
+                ref['id'] = int(ref['id'].split('/')[-1].lstrip('W'))
+            if not 'year' in ref:
+                ref['year'] = ref.get('publication_year', 0)
+
+            if ref.get('referenced_works'):
+                papers_by_year[ref['publication_year']].append(ref)
 
     for year, papers in papers_by_year.items():
         file_path = os.path.join(output_dir, f"{year}.json")
@@ -172,39 +194,47 @@ def save_papers_by_year(paper):
 
 def get_novelty_indicators(focal_year):
     # Create co-occurrence network for references
+
+    rng = 10
+
+    for y in range(focal_year-10, focal_year):
+        file_path = os.path.join("Data/docs/papers", f"{y}.json")
+        if not os.path.isfile(file_path):
+            rng = focal_year-y-1
+
     cooc = create_cooc(
         collection_name="papers",
-        year_var="publication_year",
+        year_var="year",
         var="referenced_works",
         sub_var="id",
-        time_window=range(focal_year - 10, focal_year),
+        time_window=range(focal_year - rng, focal_year),
         weighted_network=True,
         self_loop=True
     )
     cooc.main()
 
-    for year in range(focal_year - 10, focal_year):
-        score = Uzzi2013(
+    for year in range(focal_year - rng, focal_year):
+        Uzzi = Uzzi2013(
             collection_name="papers",
             id_variable="id",
-            year_variable="publication_year",
+            year_variable="year",
             variable="referenced_works",
             sub_variable="id",
             focal_year=year,
         )
-        print(score.get_indicator())
+        Uzzi.get_indicator()
 
 
 # Defining main function
 def main():
     P = retrieve_papers() # Step 1
-    for paper in P:
-        citation_scores(paper) # Step 2, 3, 4
-    pearson() # Step 3, 4
+    #for paper in P:
+        #citation_scores(paper) # Step 2, 3, 4
+    #pearson() # Step 3, 4
 
     for i, paper in enumerate(P, 1):
-        print(f"Trying to add paper {i}")
-        save_papers_by_year(paper)
+        #print(f"Trying to add paper {i}")
+        #save_papers_by_year(paper)
         get_novelty_indicators(paper['publication_year'])
 
 if __name__=="__main__":
