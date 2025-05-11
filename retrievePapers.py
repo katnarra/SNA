@@ -1,10 +1,11 @@
 import requests
 from scipy.stats import pearsonr
-from novelpy.indicators import Uzzi2013
+from novelpy.indicators import Uzzi2013, Foster2015, Lee2015, Wang2017
 from novelpy.utils.cooc_utils import create_cooc
 import json
 import os
 from collections import defaultdict
+import matplotlib.pyplot as plt
 
 base_url = "https://api.openalex.org/works"
 
@@ -43,8 +44,33 @@ def retrieve_papers():
         print(f"{i}. {work.get('display_name')}, cited: {work.get('cited_by_count')}")
     return P
 
+
+def get_references(paper, flag):    
+    # If flag == 1, it is a reference's reference that we are getting!
+
+    references_ofPaper = paper.get('referenced_works', []) # make a list of references
+    temp_references = []
+    print(f"Fetching {len(references_ofPaper)} references...")
+    for i, ref in enumerate(references_ofPaper):
+        if not isinstance(ref, dict):
+            work_id = ref.split('/')[-1]
+        else:
+            work_id = 'W' + str(ref['id'])
+        url = f"https://api.openalex.org/works/{work_id}" 
+        response = requests.get(url) # Get the object of the reference paper
+        if response.status_code == 200:
+            data = response.json()
+            if flag == 1:
+                modified_ref = {}
+                modified_ref['id'] = int(data['id'].split('/')[-1].lstrip('W'))
+                modified_ref['year'] = data.get('publication_year', 0)
+                data = modified_ref
+                print(f"Reference {i+1}/{len(references_ofPaper)} is: ", data)
+            temp_references.append(data)
+    return temp_references
+
 # Step 2: Retrieve reference list of given paper, determine the citation score of each paper in the reference list
-def citation_scores(paper):
+def citation_scores(i, paper):
     num_references = paper.get('referenced_works_count')
     print(f"The paper {paper.get('display_name')} has {num_references} references.")
     if num_references == 0:
@@ -58,8 +84,9 @@ def citation_scores(paper):
     mean_citation = 0
 
     topics_set = set() # For step 4
-
-    references_ofPaper = get_references(paper)
+    print(f"Fetching the references for paper {i}...")
+    references_ofPaper = get_references(paper, 0)
+    print(f"References fetched for paper {i}!")
     paper['referenced_works'] = references_ofPaper
     for i, data in enumerate(references_ofPaper, 1):
         citation_percentile = data.get('citation_normalized_percentile')
@@ -87,7 +114,9 @@ def citation_scores(paper):
     # All below are a part of Step 2
     mean_citation = mean_citation / num_references
     max = sorted_citation_scores[0]['citation_normalized_percentile']['value']
-    min = sorted_citation_scores[num_references-1]['citation_normalized_percentile']['value']
+    min = sorted_citation_scores[len(sorted_citation_scores)-1]['citation_normalized_percentile']['value']
+    if min == None:
+        min = 0
 
     print(f"There are {num_references} references with citation scores!")
     print("Mean citation score: ", mean_citation)
@@ -97,34 +126,29 @@ def citation_scores(paper):
     print("Minimum citation score is: ", min)
     min_ref_citationScore.append(min)
 
-def get_references(paper):
+def modify(i, paper):
+    # for paper we need id, year, referenced_works
+    print(f"Modifying paper {i}...")
+    modified_paper = {}
+    modified_paper['id'] = int(paper['id'].split('/')[-1].lstrip('W'))
+    modified_paper['year'] = paper.get('publication_year', 0)
 
-    # let's ensure novelpy compatibility here
-    if 'publication_year' not in paper:
-        paper['publication_year'] = 0 # because papers with no publication year are useless in novelpy    
-    if not 'year' in paper:
-        paper['year'] = paper['publication_year']
-    
-    #if not isinstance(paper['id'], int):
-    #    paper['id'] = int(paper['id'].split('/')[-1].lstrip('W'))
-    print("Fetching the references...")
-    references_ofPaper = paper.get('referenced_works', []) # make a list of references
-    temp_references = []
-    for ref in references_ofPaper:
-        if not isinstance(ref, dict):
-            work_id = ref.split('/')[-1]
-        else:
-            work_id = 'W' + str(ref['id'])
-        url = f"https://api.openalex.org/works/{work_id}" 
-        response = requests.get(url) # Get the object of the reference paper
-        if response.status_code == 200:
-            data = response.json()
-            temp_references.append(data)
-            data['year'] = data.get('publication_year', 0)
-            data['id'] = int(data['id'].split('/')[-1].lstrip('W'))
-            print("Data is: ", data)
-    print("References fetched!")
-    return temp_references
+    references = modify_reference(i, paper['referenced_works'])
+    modified_paper['referenced_works'] = references
+    print(f"Paper {i} modified!")
+    return modified_paper
+
+def modify_reference(i, references):
+    print(f"Modifying the references for paper {i}...")
+    modified_references = []
+    for ref in references:
+        modified_ref = {}
+        modified_ref['id'] = int(ref['id'].split('/')[-1].lstrip('W'))
+        modified_ref['year'] = ref.get('publication_year', 0)
+        modified_ref['referenced_works'] = ref['referenced_works']
+        modified_references.append(modified_ref)
+    print(f"References modified for paper {i}!")
+    return modified_references
 
 # Step 3: Calculate the Pearson coefficients between the citation 
 # of each paper in set P and each of: average citation count of reference list, 
@@ -133,14 +157,13 @@ def pearson():
     coeff_avg = pearsonr(citation_counts_P, avg_ref_citationScore)
     coeff_min = pearsonr(citation_counts_P, min_ref_citationScore)
     coeff_max = pearsonr(citation_counts_P, max_ref_citationScore)
-    print("Pearson correlation of average citations: ", coeff_avg.statistic)
-    print("Pearson correlation of min citations: ", coeff_min.statistic)
-    print("Pearson correlation of max citations: ", coeff_max.statistic)
-
+    print("Pearson correlation and P-value of average citations: ", coeff_avg.statistic, coeff_avg.pvalue)
+    print("Pearson correlation and P-value of min citations: ", coeff_min.statistic, coeff_min.pvalue)
+    print("Pearson correlation and P-value of max citations: ", coeff_max.statistic, coeff_max.pvalue)
     # Step 4:  calculate the Pearson correlation
     # between the citation score of the paper and the Number of topics generated by the reference list
     coeff_topics = pearsonr(citation_counts_P, num_of_topics)
-    print("Pearson correlation of number of topics: ", coeff_topics.statistic)
+    print("Pearson correlation and P-value of number of topics: ", coeff_topics.statistic, coeff_topics.pvalue)
 
 def save_papers_by_year(paper):
     """
@@ -153,25 +176,13 @@ def save_papers_by_year(paper):
 
     papers_by_year = defaultdict(list)
 
-    if not isinstance(paper['id'], int):
-        paper['id'] = int(paper['id'].split('/')[-1].lstrip('W'))
-    if not 'year' in paper:
-        paper['year'] = paper.get('publication_year', 0)
+    references = paper['referenced_works']
 
-    if paper.get('referenced_works'):
-        papers_by_year[paper['publication_year']].append(paper)
-
-        for ref in paper['referenced_works']:
-            ref['referenced_works'] = get_references(ref) or [] # the references of the reference also need to be in dict format containing the year
-            # so this will modify them, though it will take some time...
-
-            if not isinstance(ref['id'], int):
-                ref['id'] = int(ref['id'].split('/')[-1].lstrip('W'))
-            if not 'year' in ref:
-                ref['year'] = ref.get('publication_year', 0)
-
-            if ref.get('referenced_works'):
-                papers_by_year[ref['publication_year']].append(ref)
+    if references:
+        papers_by_year[paper['year']].append(paper)
+        for ref in references:
+            ref['referenced_works'] = get_references(ref, 1)
+            papers_by_year[ref['year']].append(ref)
 
     for year, papers in papers_by_year.items():
         file_path = os.path.join(output_dir, f"{year}.json")
@@ -192,50 +203,112 @@ def save_papers_by_year(paper):
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(combined, f, indent=2)
 
-def get_novelty_indicators(focal_year):
-    # Create co-occurrence network for references
-
-    rng = 10
-
-    for y in range(focal_year-10, focal_year):
-        file_path = os.path.join("Data/docs/papers", f"{y}.json")
-        if not os.path.isfile(file_path):
-            rng = focal_year-y-1
-
+def get_novelty_indicators(min, max, year):
+    # Create co-occurrence network for references    
+    print(f"Now creting cooc for focal year {year}")
     cooc = create_cooc(
-        collection_name="papers",
-        year_var="year",
-        var="referenced_works",
-        sub_var="id",
-        time_window=range(focal_year - rng, focal_year),
-        weighted_network=True,
-        self_loop=True
+    collection_name="papers",
+    year_var="year",
+    var="referenced_works",
+    sub_var="id",
+    time_window=range(min - 10, max),
+    weighted_network=True,
+    self_loop=True
     )
     cooc.main()
 
-    for year in range(focal_year - rng, focal_year):
-        Uzzi = Uzzi2013(
-            collection_name="papers",
-            id_variable="id",
-            year_variable="year",
-            variable="referenced_works",
-            sub_variable="id",
-            focal_year=year,
-        )
-        Uzzi.get_indicator()
+    for focal_year in range(year-10, year):
+        
+        try:
+            print(f"Now calculating Uzzi for focal year {focal_year}")
+            Uzzi = Uzzi2013(
+                collection_name="papers",
+                id_variable="id",
+                year_variable="year",
+                variable="referenced_works",
+                sub_variable="id",
+                focal_year=focal_year,
+            )
+            Uzzi.get_indicator()
+        except FileNotFoundError:
+            print(f"No files for focal year {focal_year}!")
+        except AttributeError:
+            print(f"No references for focal year {focal_year}!")
+
+        try:
+            print(f"Now calculating Foster for focal year {focal_year}")
+            Foster = Foster2015(
+                collection_name="papers",
+                id_variable="id",
+                year_variable="year",
+                variable="referenced_works",
+                sub_variable="id",
+                focal_year=focal_year,
+                starting_year = 1949,
+                community_algorithm = "Louvain",
+                density = True
+            )
+            Foster.get_indicator()
+        except FileNotFoundError:
+            print(f"No files for focal year {focal_year}!")
+        except AttributeError:
+            print(f"No references for focal year {focal_year}!")
+
+        try: # does not save results :(
+            print(f"Now calculating Lee for focal year {focal_year}")
+            Lee = Lee2015(
+                collection_name="papers",
+                id_variable="id",
+                year_variable="year",
+                variable="referenced_works",
+                sub_variable="id",
+                focal_year=focal_year
+            )
+            Lee.get_indicator()
+        except FileNotFoundError:
+            print(f"No files for focal year {focal_year}!")
+        except AttributeError:
+            print(f"No references for focal year {focal_year}!")
+
+        try: # does not save results :(
+            print(f"Now calculating Lee for focal year {focal_year}")
+            Wang = Wang2017(
+                collection_name="papers",
+                id_variable="id",
+                year_variable="year",
+                variable="referenced_works",
+                sub_variable="id",
+                focal_year=focal_year,
+                time_window_cooc=3,
+                n_reutilisation=1
+            )
+            Wang.get_indicator()
+        except FileNotFoundError:
+            print(f"No files for focal year {focal_year}!")
+        except AttributeError:
+            print(f"No references for focal year {focal_year}!")
 
 
 # Defining main function
 def main():
     P = retrieve_papers() # Step 1
-    #for paper in P:
-        #citation_scores(paper) # Step 2, 3, 4
-    #pearson() # Step 3, 4
+    with open("SNA/papers.json", 'w') as f: # save to a json file
+            json.dump(P, f, indent=2)
+    for i, paper in enumerate(P, 0):
+        citation_scores(i, paper) # Step 2, 3, 4
+        paper = modify(i, paper)
+        P[i] = paper
+    pearson() # Step 3, 4
+
+    min_year = min([p['year'] for p in P])
+    max_year = max([p['year'] for p in P])
 
     for i, paper in enumerate(P, 1):
-        #print(f"Trying to add paper {i}")
-        #save_papers_by_year(paper)
-        get_novelty_indicators(paper['publication_year'])
+        print(f"Adding paper {i}")
+        save_papers_by_year(paper)
+    for i, paper in enumerate(P, 1):
+        print(f"Getting novelty indicators for paper {i}")
+        get_novelty_indicators(min_year, max_year, paper['publication_year'])
 
 if __name__=="__main__":
     main()

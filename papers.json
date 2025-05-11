@@ -1,0 +1,7642 @@
+[
+  {
+    "id": "https://openalex.org/W3044291841",
+    "doi": "https://doi.org/10.1146/annurev.psych.52.1.1",
+    "title": "Social Cognitive Theory: An Agentic Perspective",
+    "display_name": "Social Cognitive Theory: An Agentic Perspective",
+    "relevance_score": 29.210108,
+    "publication_year": 2001,
+    "publication_date": "2001-02-01",
+    "ids": {
+      "openalex": "https://openalex.org/W3044291841",
+      "doi": "https://doi.org/10.1146/annurev.psych.52.1.1",
+      "mag": "3044291841",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/11148297"
+    },
+    "language": "en",
+    "primary_location": {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1146/annurev.psych.52.1.1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S90670110",
+        "display_name": "Annual Review of Psychology",
+        "issn_l": "0066-4308",
+        "issn": [
+          "0066-4308",
+          "1545-2085"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320373",
+        "host_organization_name": "Annual Reviews",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320373"
+        ],
+        "host_organization_lineage_names": [
+          "Annual Reviews"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    "type": "article",
+    "type_crossref": "journal-article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": "https://ejournals.epublishing.ekt.gr/index.php/psychology/article/download/23964/20057",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5110910530",
+          "display_name": "Albert Bandura",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Albert Bandura",
+        "raw_affiliation_strings": [
+          "Department of Psychology, Stanford University, Stanford, California 94305-2131;"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Psychology, Stanford University, Stanford, California 94305-2131;",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      }
+    ],
+    "institution_assertions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5110910530"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I97018004"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 72.552,
+    "has_fulltext": true,
+    "fulltext_origin": "ngrams",
+    "cited_by_count": 12843,
+    "citation_normalized_percentile": {
+      "value": 0.999876,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "52",
+      "issue": "1",
+      "first_page": "1",
+      "last_page": "26"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11454",
+      "display_name": "Cultural Differences and Values",
+      "score": 0.9802,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11454",
+        "display_name": "Cultural Differences and Values",
+        "score": 0.9802,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12196",
+        "display_name": "Community Health and Development",
+        "score": 0.972,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10314",
+        "display_name": "Social and Intergroup Psychology",
+        "score": 0.9491,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/sense-of-agency",
+        "display_name": "Sense of Agency",
+        "score": 0.81220293
+      },
+      {
+        "id": "https://openalex.org/keywords/embeddedness",
+        "display_name": "Embeddedness",
+        "score": 0.7193651
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C141633740",
+        "wikidata": "https://www.wikidata.org/wiki/Q7450996",
+        "display_name": "Sense of agency",
+        "level": 2,
+        "score": 0.81220293
+      },
+      {
+        "id": "https://openalex.org/C108170787",
+        "wikidata": "https://www.wikidata.org/wiki/Q3951828",
+        "display_name": "Agency (philosophy)",
+        "level": 2,
+        "score": 0.75000775
+      },
+      {
+        "id": "https://openalex.org/C63063934",
+        "wikidata": "https://www.wikidata.org/wiki/Q1079747",
+        "display_name": "Embeddedness",
+        "level": 2,
+        "score": 0.7193651
+      },
+      {
+        "id": "https://openalex.org/C77805123",
+        "wikidata": "https://www.wikidata.org/wiki/Q161272",
+        "display_name": "Social psychology",
+        "level": 1,
+        "score": 0.58218205
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.5747428
+      },
+      {
+        "id": "https://openalex.org/C185874996",
+        "wikidata": "https://www.wikidata.org/wiki/Q269699",
+        "display_name": "Interdependence",
+        "level": 2,
+        "score": 0.56091416
+      },
+      {
+        "id": "https://openalex.org/C169900460",
+        "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+        "display_name": "Cognition",
+        "level": 2,
+        "score": 0.4786895
+      },
+      {
+        "id": "https://openalex.org/C186720457",
+        "wikidata": "https://www.wikidata.org/wiki/Q7087",
+        "display_name": "Consciousness",
+        "level": 2,
+        "score": 0.42947727
+      },
+      {
+        "id": "https://openalex.org/C17235551",
+        "wikidata": "https://www.wikidata.org/wiki/Q3236990",
+        "display_name": "Self",
+        "level": 2,
+        "score": 0.42403322
+      },
+      {
+        "id": "https://openalex.org/C2775924081",
+        "wikidata": "https://www.wikidata.org/wiki/Q55608371",
+        "display_name": "Control (management)",
+        "level": 2,
+        "score": 0.42344522
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.31069338
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.12719929
+      },
+      {
+        "id": "https://openalex.org/C187736073",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+        "display_name": "Management",
+        "level": 1,
+        "score": 0.11021799
+      },
+      {
+        "id": "https://openalex.org/C36289849",
+        "wikidata": "https://www.wikidata.org/wiki/Q34749",
+        "display_name": "Social science",
+        "level": 1,
+        "score": 0.092806846
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D003071",
+        "descriptor_name": "Cognition",
+        "qualifier_ui": "",
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D011582",
+        "descriptor_name": "Psychological Theory",
+        "qualifier_ui": "",
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D012919",
+        "descriptor_name": "Social Behavior",
+        "qualifier_ui": "",
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D012941",
+        "descriptor_name": "Social Responsibility",
+        "qualifier_ui": "",
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001709",
+        "descriptor_name": "Biotechnology",
+        "qualifier_ui": "",
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": "",
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D020377",
+        "descriptor_name": "Self Efficacy",
+        "qualifier_ui": "",
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 3,
+    "locations": [
+      {
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1146/annurev.psych.52.1.1",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S90670110",
+          "display_name": "Annual Review of Psychology",
+          "issn_l": "0066-4308",
+          "issn": [
+            "0066-4308",
+            "1545-2085"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_indexed_in_scopus": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320373",
+          "host_organization_name": "Annual Reviews",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320373"
+          ],
+          "host_organization_lineage_names": [
+            "Annual Reviews"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false
+      },
+      {
+        "is_oa": true,
+        "landing_page_url": "https://ejournals.epublishing.ekt.gr/index.php/psychology/article/view/23964",
+        "pdf_url": "https://ejournals.epublishing.ekt.gr/index.php/psychology/article/download/23964/20057",
+        "source": {
+          "id": "https://openalex.org/S4306402257",
+          "display_name": "\u0399\u039d\u03a3\u03a4\u0399\u03a4\u039f\u03a5\u03a4\u039f \u0399\u03a3\u03a4\u039f\u03a1\u0399\u039a\u03a9\u039d \u0395\u03a1\u0395\u03a5\u039d\u03a9\u039d (National Hellenic Research Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_indexed_in_scopus": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4210127711",
+          "host_organization_name": "National Hellenic Research Foundation",
+          "host_organization_lineage": [
+            "https://openalex.org/I4210127711"
+          ],
+          "host_organization_lineage_names": [
+            "National Hellenic Research Foundation"
+          ],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true
+      },
+      {
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/11148297",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_indexed_in_scopus": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [
+            "National Institutes of Health"
+          ],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false
+      }
+    ],
+    "best_oa_location": {
+      "is_oa": true,
+      "landing_page_url": "https://ejournals.epublishing.ekt.gr/index.php/psychology/article/view/23964",
+      "pdf_url": "https://ejournals.epublishing.ekt.gr/index.php/psychology/article/download/23964/20057",
+      "source": {
+        "id": "https://openalex.org/S4306402257",
+        "display_name": "\u0399\u039d\u03a3\u03a4\u0399\u03a4\u039f\u03a5\u03a4\u039f \u0399\u03a3\u03a4\u039f\u03a1\u0399\u039a\u03a9\u039d \u0395\u03a1\u0395\u03a5\u039d\u03a9\u039d (National Hellenic Research Foundation)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I4210127711",
+        "host_organization_name": "National Hellenic Research Foundation",
+        "host_organization_lineage": [
+          "https://openalex.org/I4210127711"
+        ],
+        "host_organization_lineage_names": [
+          "National Hellenic Research Foundation"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    "sustainable_development_goals": [],
+    "grants": [],
+    "datasets": [],
+    "versions": [],
+    "referenced_works_count": 57,
+    "referenced_works": [
+      "https://openalex.org/W1508090577",
+      "https://openalex.org/W1514428340",
+      "https://openalex.org/W1515810707",
+      "https://openalex.org/W1526248638",
+      "https://openalex.org/W1535850652",
+      "https://openalex.org/W1535970121",
+      "https://openalex.org/W1538871796",
+      "https://openalex.org/W1562208008",
+      "https://openalex.org/W1594679514",
+      "https://openalex.org/W1613323702",
+      "https://openalex.org/W1695845795",
+      "https://openalex.org/W1967672810",
+      "https://openalex.org/W2002386063",
+      "https://openalex.org/W2015297927",
+      "https://openalex.org/W2021582351",
+      "https://openalex.org/W2021765444",
+      "https://openalex.org/W2029355702",
+      "https://openalex.org/W2034360041",
+      "https://openalex.org/W2036151456",
+      "https://openalex.org/W2041394285",
+      "https://openalex.org/W2042315673",
+      "https://openalex.org/W2047098361",
+      "https://openalex.org/W2047755035",
+      "https://openalex.org/W2073505789",
+      "https://openalex.org/W2075645979",
+      "https://openalex.org/W2081875424",
+      "https://openalex.org/W2092090726",
+      "https://openalex.org/W2105717202",
+      "https://openalex.org/W2126400437",
+      "https://openalex.org/W2129425815",
+      "https://openalex.org/W2138739719",
+      "https://openalex.org/W2145725144",
+      "https://openalex.org/W2155424107",
+      "https://openalex.org/W2330571976",
+      "https://openalex.org/W2330596682",
+      "https://openalex.org/W260300124",
+      "https://openalex.org/W2743059607",
+      "https://openalex.org/W2801926291",
+      "https://openalex.org/W2911682835",
+      "https://openalex.org/W2949948519",
+      "https://openalex.org/W3214923421",
+      "https://openalex.org/W4234699972",
+      "https://openalex.org/W4234820392",
+      "https://openalex.org/W4238509275",
+      "https://openalex.org/W4238777391",
+      "https://openalex.org/W4241859702",
+      "https://openalex.org/W4246679797",
+      "https://openalex.org/W4248572264",
+      "https://openalex.org/W4249660506",
+      "https://openalex.org/W4250543930",
+      "https://openalex.org/W4251753167",
+      "https://openalex.org/W4252206414",
+      "https://openalex.org/W4253484789",
+      "https://openalex.org/W4253792501",
+      "https://openalex.org/W4254859155",
+      "https://openalex.org/W4323874075",
+      "https://openalex.org/W642784701"
+    ],
+    "related_works": [
+      "https://openalex.org/W2970457955",
+      "https://openalex.org/W2804770209",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2497768741",
+      "https://openalex.org/W2483852163",
+      "https://openalex.org/W2463300668",
+      "https://openalex.org/W2028804580",
+      "https://openalex.org/W2017569713",
+      "https://openalex.org/W1981237115",
+      "https://openalex.org/W1499434696"
+    ],
+    "abstract_inverted_index": {
+      "\u25aa": [
+        0
+      ],
+      "Abstract": [
+        1
+      ],
+      "The": [
+        2
+      ],
+      "capacity": [
+        3
+      ],
+      "to": [
+        4,
+        111,
+        116,
+        142
+      ],
+      "exercise": [
+        5,
+        143
+      ],
+      "control": [
+        6,
+        144
+      ],
+      "over": [
+        7,
+        145
+      ],
+      "the": [
+        8,
+        16,
+        39,
+        61
+      ],
+      "nature": [
+        9
+      ],
+      "and": [
+        10,
+        34,
+        46,
+        52,
+        60,
+        63,
+        120,
+        127,
+        133,
+        148
+      ],
+      "quality": [
+        11,
+        57
+      ],
+      "of": [
+        12,
+        18,
+        27,
+        42,
+        58,
+        65,
+        76,
+        90,
+        100
+      ],
+      "one's": [
+        13,
+        55,
+        66,
+        114
+      ],
+      "life": [
+        14,
+        67
+      ],
+      "is": [
+        15,
+        22
+      ],
+      "essence": [
+        17
+      ],
+      "humanness.": [
+        19
+      ],
+      "Human": [
+        20
+      ],
+      "agency": [
+        21,
+        43,
+        70,
+        106,
+        122
+      ],
+      "characterized": [
+        23
+      ],
+      "by": [
+        24,
+        49
+      ],
+      "a": [
+        25,
+        73,
+        137
+      ],
+      "number": [
+        26
+      ],
+      "core": [
+        28
+      ],
+      "features": [
+        29
+      ],
+      "that": [
+        30,
+        107
+      ],
+      "operate": [
+        31
+      ],
+      "through": [
+        32,
+        44,
+        124
+      ],
+      "phenomenal": [
+        33
+      ],
+      "functional": [
+        35
+      ],
+      "consciousness.": [
+        36
+      ],
+      "These": [
+        37
+      ],
+      "include": [
+        38
+      ],
+      "temporal": [
+        40
+      ],
+      "extension": [
+        41
+      ],
+      "intentionality": [
+        45
+      ],
+      "forethought,": [
+        47
+      ],
+      "self-regulation": [
+        48
+      ],
+      "self-reactive": [
+        50
+      ],
+      "influence,": [
+        51
+      ],
+      "self-reflectiveness": [
+        53
+      ],
+      "about": [
+        54
+      ],
+      "capabilities,": [
+        56
+      ],
+      "functioning,": [
+        59
+      ],
+      "meaning": [
+        62
+      ],
+      "purpose": [
+        64
+      ],
+      "pursuits.": [
+        68
+      ],
+      "Personal": [
+        69
+      ],
+      "operates": [
+        71
+      ],
+      "within": [
+        72
+      ],
+      "broad": [
+        74
+      ],
+      "network": [
+        75
+      ],
+      "sociostructural": [
+        77
+      ],
+      "influences.": [
+        78
+      ],
+      "In": [
+        79
+      ],
+      "these": [
+        80
+      ],
+      "agentic": [
+        81
+      ],
+      "transactions,": [
+        82
+      ],
+      "people": [
+        83
+      ],
+      "are": [
+        84,
+        135
+      ],
+      "producers": [
+        85
+      ],
+      "as": [
+        86,
+        88
+      ],
+      "well": [
+        87
+      ],
+      "products": [
+        89
+      ],
+      "social": [
+        91
+      ],
+      "systems.": [
+        92
+      ],
+      "Social": [
+        93
+      ],
+      "cognitive": [
+        94
+      ],
+      "theory": [
+        95
+      ],
+      "distinguishes": [
+        96
+      ],
+      "among": [
+        97
+      ],
+      "three": [
+        98
+      ],
+      "modes": [
+        99
+      ],
+      "agency:": [
+        101
+      ],
+      "direct": [
+        102
+      ],
+      "personal": [
+        103,
+        146
+      ],
+      "agency,": [
+        104
+      ],
+      "proxy": [
+        105
+      ],
+      "relies": [
+        108
+      ],
+      "on": [
+        109,
+        113,
+        139
+      ],
+      "others": [
+        110
+      ],
+      "act": [
+        112
+      ],
+      "behest": [
+        115
+      ],
+      "secure": [
+        117
+      ],
+      "desired": [
+        118
+      ],
+      "outcomes,": [
+        119
+      ],
+      "collective": [
+        121,
+        140
+      ],
+      "exercised": [
+        123
+      ],
+      "socially": [
+        125
+      ],
+      "coordinative": [
+        126
+      ],
+      "interdependent": [
+        128
+      ],
+      "effort.": [
+        129
+      ],
+      "Growing": [
+        130
+      ],
+      "transnational": [
+        131
+      ],
+      "embeddedness": [
+        132
+      ],
+      "interdependence": [
+        134
+      ],
+      "placing": [
+        136
+      ],
+      "premium": [
+        138
+      ],
+      "efficacy": [
+        141
+      ],
+      "destinies": [
+        147
+      ],
+      "national": [
+        149
+      ],
+      "life.": [
+        150
+      ]
+    },
+    "abstract_inverted_index_v3": null,
+    "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W3044291841",
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 313
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1095
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1035
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 1018
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 996
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 1001
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 850
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 756
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 695
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 720
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 713
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 701
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 533
+      },
+      {
+        "year": 2012,
+        "cited_by_count": 453
+      }
+    ],
+    "updated_date": "2025-05-09T17:36:20.150668",
+    "created_date": "2020-07-29"
+  },
+  {
+    "id": "https://openalex.org/W2313563931",
+    "doi": "https://doi.org/10.2307/973677",
+    "title": "The Science of \"Muddling Through\"",
+    "display_name": "The Science of \"Muddling Through\"",
+    "relevance_score": 31.983103,
+    "publication_year": 1959,
+    "publication_date": "1959-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2313563931",
+      "doi": "https://doi.org/10.2307/973677",
+      "mag": "2313563931"
+    },
+    "language": "en",
+    "primary_location": {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.2307/973677",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S76877748",
+        "display_name": "Public Administration Review",
+        "issn_l": "0033-3352",
+        "issn": [
+          "0033-3352",
+          "1540-6210"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    "type": "article",
+    "type_crossref": "journal-article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5086246320",
+          "display_name": "Charles E. Lindblom",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Charles E. Lindblom",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      }
+    ],
+    "institution_assertions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5086246320"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 3860,
+      "currency": "USD",
+      "value_usd": 3860
+    },
+    "apc_paid": null,
+    "fwci": 46.175,
+    "has_fulltext": true,
+    "fulltext_origin": "ngrams",
+    "cited_by_count": 8099,
+    "citation_normalized_percentile": {
+      "value": 0.999406,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "19",
+      "issue": "2",
+      "first_page": "79",
+      "last_page": "79"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12137",
+      "display_name": "Economic theories and models",
+      "score": 0.3333,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12137",
+        "display_name": "Economic theories and models",
+        "score": 0.3333,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11742",
+        "display_name": "Economic Theory and Policy",
+        "score": 0.3231,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2000",
+          "display_name": "General Economics, Econometrics and Finance"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.4554136
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.38884395
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.2307/973677",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S76877748",
+          "display_name": "Public Administration Review",
+          "issn_l": "0033-3352",
+          "issn": [
+            "0033-3352",
+            "1540-6210"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_indexed_in_scopus": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/8",
+        "display_name": "Decent work and economic growth",
+        "score": 0.62
+      }
+    ],
+    "grants": [],
+    "datasets": [],
+    "versions": [],
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W594353338",
+      "https://openalex.org/W2955725829",
+      "https://openalex.org/W2949263084",
+      "https://openalex.org/W2922049016",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2890326160",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2743539335",
+      "https://openalex.org/W2724734218",
+      "https://openalex.org/W2529842344"
+    ],
+    "abstract_inverted_index": {
+      "Originally": [
+        0
+      ],
+      "published": [
+        1
+      ],
+      "as": [
+        2,
+        106,
+        303,
+        335,
+        347,
+        369,
+        548,
+        597,
+        603
+      ],
+      "Lindblom,": [
+        3,
+        37
+      ],
+      "C.E.": [
+        4
+      ],
+      "(1959).": [
+        5
+      ],
+      "The": [
+        6,
+        29,
+        46
+      ],
+      "science": [
+        7
+      ],
+      "of": [
+        8,
+        24,
+        31,
+        48,
+        80,
+        89,
+        93,
+        115,
+        120,
+        131,
+        138,
+        143,
+        151,
+        174,
+        177,
+        186,
+        195,
+        203,
+        218,
+        221,
+        239,
+        250,
+        268,
+        297,
+        317,
+        391,
+        420,
+        423,
+        436,
+        446,
+        458,
+        469,
+        503,
+        506,
+        518,
+        553,
+        560,
+        576,
+        605,
+        618,
+        623
+      ],
+      "muddling": [
+        9
+      ],
+      "through,": [
+        10
+      ],
+      "Public": [
+        11
+      ],
+      "Administration": [
+        12
+      ],
+      "Review,": [
+        13
+      ],
+      "19(2):": [
+        14
+      ],
+      "79-88.": [
+        15
+      ],
+      "Reprinted": [
+        16
+      ],
+      "with": [
+        17,
+        64,
+        254,
+        461
+      ],
+      "kind": [
+        18
+      ],
+      "permission.": [
+        19
+      ],
+      "For": [
+        20,
+        491,
+        613
+      ],
+      "a": [
+        21,
+        94,
+        113,
+        123,
+        166,
+        330,
+        395,
+        434,
+        444,
+        556
+      ],
+      "critical": [
+        22
+      ],
+      "analysis": [
+        23
+      ],
+      "this": [
+        25
+      ],
+      "issue's": [
+        26
+      ],
+      "Classic": [
+        27
+      ],
+      "Paper": [
+        28
+      ],
+      "Science": [
+        30,
+        47
+      ],
+      "'Muddling'": [
+        32
+      ],
+      "Through": [
+        50
+      ],
+      "by": [
+        34,
+        71,
+        129,
+        328,
+        611
+      ],
+      "Charles": [
+        35
+      ],
+      "E.": [
+        36
+      ],
+      "please": [
+        38
+      ],
+      "refer": [
+        39
+      ],
+      "to": [
+        40,
+        66,
+        73,
+        148,
+        159,
+        179,
+        283,
+        301,
+        361,
+        408,
+        440,
+        465,
+        581,
+        590
+      ],
+      "Ronald": [
+        41
+      ],
+      "J.": [
+        42
+      ],
+      "Scott,": [
+        43
+      ],
+      "Jr.'s": [
+        44
+      ],
+      "article": [
+        45
+      ],
+      "Muddling": [
+        49
+      ],
+      "Revisited": [
+        51
+      ],
+      "on": [
+        52,
+        140,
+        244,
+        257,
+        261,
+        275,
+        455
+      ],
+      "pages": [
+        53
+      ],
+      "5-18.": [
+        54
+      ],
+      "SUPPOSE": [
+        55
+      ],
+      "an": [
+        56,
+        134
+      ],
+      "administrator": [
+        57
+      ],
+      "is": [
+        58,
+        146,
+        622
+      ],
+      "given": [
+        59
+      ],
+      "responsibility": [
+        60
+      ],
+      "for": [
+        61,
+        208,
+        355,
+        542
+      ],
+      "formulating": [
+        62
+      ],
+      "policy": [
+        63,
+        101,
+        163,
+        404,
+        463,
+        482,
+        494
+      ],
+      "respect": [
+        65
+      ],
+      "inflation.": [
+        67
+      ],
+      "He": [
+        68,
+        155,
+        338,
+        410
+      ],
+      "might": [
+        69,
+        323,
+        495,
+        509
+      ],
+      "start": [
+        70
+      ],
+      "trying": [
+        72
+      ],
+      "list": [
+        74
+      ],
+      "all": [
+        75,
+        99,
+        161,
+        213,
+        240,
+        251
+      ],
+      "related": [
+        76,
+        384
+      ],
+      "values": [
+        77,
+        127,
+        346,
+        365,
+        385,
+        487,
+        536
+      ],
+      "in": [
+        78,
+        111,
+        215,
+        265,
+        289,
+        340,
+        488,
+        524,
+        549
+      ],
+      "order": [
+        79
+      ],
+      "importance,": [
+        81
+      ],
+      "e.g.,": [
+        82
+      ],
+      "full": [
+        83,
+        336
+      ],
+      "employment,": [
+        84
+      ],
+      "reasonable": [
+        85
+      ],
+      "business": [
+        86
+      ],
+      "profit,": [
+        87
+      ],
+      "protection": [
+        88
+      ],
+      "small": [
+        90,
+        462
+      ],
+      "savings,": [
+        91
+      ],
+      "prevention": [
+        92
+      ],
+      "stock": [
+        95
+      ],
+      "market": [
+        96,
+        260
+      ],
+      "crash.": [
+        97
+      ],
+      "Then": [
+        98
+      ],
+      "possible": [
+        100,
+        162,
+        388
+      ],
+      "outcomes": [
+        102
+      ],
+      "could": [
+        103,
+        156,
+        273
+      ],
+      "be": [
+        104,
+        300,
+        324
+      ],
+      "rated": [
+        105
+      ],
+      "more": [
+        107,
+        557
+      ],
+      "or": [
+        108,
+        309,
+        326,
+        486,
+        610
+      ],
+      "less": [
+        109,
+        511,
+        516
+      ],
+      "efficient": [
+        110
+      ],
+      "attaining": [
+        112
+      ],
+      "maximum": [
+        114
+      ],
+      "these": [
+        116,
+        619
+      ],
+      "values.": [
+        117,
+        187,
+        293,
+        544
+      ],
+      "This": [
+        118,
+        321
+      ],
+      "would": [
+        119,
+        170,
+        192,
+        211,
+        231,
+        281,
+        288,
+        299,
+        339,
+        354,
+        376,
+        399,
+        411,
+        430,
+        452,
+        478,
+        529,
+        546,
+        588
+      ],
+      "course": [
+        121,
+        624
+      ],
+      "require": [
+        122
+      ],
+      "prodigious": [
+        124,
+        136
+      ],
+      "inquiry": [
+        125
+      ],
+      "into": [
+        126,
+        473,
+        531
+      ],
+      "held": [
+        128
+      ],
+      "members": [
+        130
+      ],
+      "society": [
+        132
+      ],
+      "and": [
+        133,
+        236,
+        242,
+        248,
+        352,
+        386,
+        537,
+        572,
+        599,
+        602
+      ],
+      "equally": [
+        135
+      ],
+      "set": [
+        137,
+        302
+      ],
+      "calculations": [
+        139
+      ],
+      "how": [
+        141,
+        149
+      ],
+      "much": [
+        142,
+        150
+      ],
+      "each": [
+        144,
+        152
+      ],
+      "value": [
+        145
+      ],
+      "equal": [
+        147
+      ],
+      "other": [
+        153,
+        332,
+        344
+      ],
+      "value.": [
+        154
+      ],
+      "then": [
+        157,
+        412
+      ],
+      "proceed": [
+        158
+      ],
+      "outline": [
+        160,
+        400
+      ],
+      "alternatives.": [
+        164
+      ],
+      "In": [
+        165,
+        188,
+        205,
+        415
+      ],
+      "third": [
+        167
+      ],
+      "step,": [
+        168,
+        397
+      ],
+      "he": [
+        169,
+        191,
+        210,
+        230,
+        272,
+        280,
+        353,
+        367,
+        373,
+        375,
+        380,
+        398,
+        429,
+        451,
+        477
+      ],
+      "undertake": [
+        171
+      ],
+      "systematic": [
+        172
+      ],
+      "comparison": [
+        173,
+        445
+      ],
+      "his": [
+        175,
+        228,
+        292,
+        304,
+        349,
+        392,
+        417,
+        525
+      ],
+      "multitude": [
+        176
+      ],
+      "alternatives": [
+        178,
+        225,
+        405,
+        483
+      ],
+      "determine": [
+        180
+      ],
+      "which": [
+        181
+      ],
+      "attains": [
+        182
+      ],
+      "the": [
+        183,
+        216,
+        219,
+        237,
+        245,
+        258,
+        262,
+        266,
+        285,
+        313,
+        356,
+        363,
+        456,
+        467,
+        474,
+        481,
+        501,
+        521,
+        533,
+        538,
+        550,
+        562,
+        577,
+        593,
+        616
+      ],
+      "greatest": [
+        184
+      ],
+      "amount": [
+        185
+      ],
+      "comparing": [
+        189,
+        416
+      ],
+      "policies,": [
+        190
+      ],
+      "take": [
+        193
+      ],
+      "advantage": [
+        194
+      ],
+      "any": [
+        196
+      ],
+      "theory": [
+        197,
+        220,
+        437
+      ],
+      "available": [
+        198
+      ],
+      "that": [
+        199,
+        287,
+        366,
+        379,
+        406,
+        480,
+        564,
+        568
+      ],
+      "generalized": [
+        200
+      ],
+      "about": [
+        201
+      ],
+      "classes": [
+        202
+      ],
+      "policies.": [
+        204,
+        393
+      ],
+      "considering": [
+        206
+      ],
+      "inflation,": [
+        207
+      ],
+      "example,": [
+        209,
+        492
+      ],
+      "compare": [
+        212,
+        413
+      ],
+      "policies": [
+        214
+      ],
+      "light": [
+        217,
+        267
+      ],
+      "prices.": [
+        222
+      ],
+      "Since": [
+        223
+      ],
+      "no": [
+        224
+      ],
+      "are": [
+        226
+      ],
+      "beyond": [
+        227,
+        348
+      ],
+      "investigation,": [
+        229
+      ],
+      "consider": [
+        232
+      ],
+      "strict": [
+        233
+      ],
+      "central": [
+        234
+      ],
+      "control": [
+        235
+      ],
+      "abolition": [
+        238
+      ],
+      "prices": [
+        241,
+        319
+      ],
+      "markets": [
+        243
+      ],
+      "one": [
+        246,
+        493,
+        532
+      ],
+      "hand": [
+        247
+      ],
+      "elimination": [
+        249
+      ],
+      "public": [
+        252
+      ],
+      "controls": [
+        253
+      ],
+      "reliance": [
+        255
+      ],
+      "completely": [
+        256
+      ],
+      "free": [
+        259
+      ],
+      "other,": [
+        263
+      ],
+      "both": [
+        264
+      ],
+      "whatever": [
+        269
+      ],
+      "theoretical": [
+        270
+      ],
+      "generalizations": [
+        271
+      ],
+      "find": [
+        274,
+        433,
+        479
+      ],
+      "such": [
+        276,
+        334
+      ],
+      "hypothetical": [
+        277
+      ],
+      "economies.": [
+        278
+      ],
+      "Finally,": [
+        279
+      ],
+      "try": [
+        282
+      ],
+      "make": [
+        284
+      ],
+      "choice": [
+        286,
+        534,
+        539
+      ],
+      "fact": [
+        290,
+        341
+      ],
+      "maximize": [
+        291
+      ],
+      "An": [
+        294
+      ],
+      "alternative": [
+        295
+      ],
+      "line": [
+        296
+      ],
+      "attack": [
+        298
+      ],
+      "principal": [
+        305
+      ],
+      "objective,": [
+        306
+      ],
+      "either": [
+        307
+      ],
+      "explicitly": [
+        308
+      ],
+      "without": [
+        310
+      ],
+      "conscious": [
+        311
+      ],
+      "thought,": [
+        312
+      ],
+      "relatively": [
+        314,
+        402
+      ],
+      "simple": [
+        315
+      ],
+      "goal": [
+        316
+      ],
+      "keeping": [
+        318
+      ],
+      "level.": [
+        320
+      ],
+      "objective": [
+        322
+      ],
+      "compromised": [
+        325
+      ],
+      "complicated": [
+        327
+      ],
+      "only": [
+        329,
+        585
+      ],
+      "few": [
+        331,
+        364,
+        403
+      ],
+      "goals,": [
+        333
+      ],
+      "employment.": [
+        337
+      ],
+      "disregard": [
+        342
+      ],
+      "most": [
+        343,
+        422
+      ],
+      "social": [
+        345
+      ],
+      "present": [
+        350
+      ],
+      "interest,": [
+        351
+      ],
+      "moment": [
+        357
+      ],
+      "not": [
+        358,
+        431
+      ],
+      "even": [
+        359
+      ],
+      "attempt": [
+        360
+      ],
+      "rank": [
+        362
+      ],
+      "regarded": [
+        368
+      ],
+      "immediately": [
+        370
+      ],
+      "relevant.": [
+        371
+      ],
+      "Were": [
+        372
+      ],
+      "pressed,": [
+        374
+      ],
+      "quickly": [
+        377
+      ],
+      "admit": [
+        378
+      ],
+      "was": [
+        381
+      ],
+      "ignoring": [
+        382
+      ],
+      "many": [
+        383,
+        387
+      ],
+      "important": [
+        389
+      ],
+      "consequences": [
+        390,
+        468
+      ],
+      "As": [
+        394
+      ],
+      "second": [
+        396,
+        578
+      ],
+      "those": [
+        401
+      ],
+      "occurred": [
+        407
+      ],
+      "him.": [
+        409
+      ],
+      "them.": [
+        414
+      ],
+      "limited": [
+        418
+      ],
+      "number": [
+        419
+      ],
+      "alternatives,": [
+        421
+      ],
+      "them": [
+        424
+      ],
+      "familiar": [
+        425
+      ],
+      "from": [
+        426
+      ],
+      "past": [
+        427,
+        459
+      ],
+      "controversies,": [
+        428
+      ],
+      "ordinarily": [
+        432
+      ],
+      "body": [
+        435
+      ],
+      "precise": [
+        438
+      ],
+      "enough": [
+        439
+      ],
+      "carry": [
+        441
+      ],
+      "him": [
+        442
+      ],
+      "through": [
+        443
+      ],
+      "their": [
+        447,
+        583
+      ],
+      "respective": [
+        448
+      ],
+      "consequences.": [
+        449
+      ],
+      "Instead": [
+        450
+      ],
+      "rely": [
+        453
+      ],
+      "heavily": [
+        454
+      ],
+      "record": [
+        457
+      ],
+      "experience": [
+        460
+      ],
+      "steps": [
+        464,
+        471
+      ],
+      "predict": [
+        466
+      ],
+      "similar": [
+        470
+      ],
+      "extended": [
+        472
+      ],
+      "future.": [
+        475
+      ],
+      "Moreover,": [
+        476
+      ],
+      "combined": [
+        484
+      ],
+      "objectives": [
+        485
+      ],
+      "different": [
+        489
+      ],
+      "ways.": [
+        490
+      ],
+      "offer": [
+        496,
+        510
+      ],
+      "price": [
+        497,
+        512
+      ],
+      "level": [
+        498
+      ],
+      "stability": [
+        499,
+        513
+      ],
+      "at": [
+        500
+      ],
+      "cost": [
+        502
+      ],
+      "some": [
+        504
+      ],
+      "risk": [
+        505,
+        517
+      ],
+      "unemployment;": [
+        507
+      ],
+      "another": [
+        508
+      ],
+      "but": [
+        514
+      ],
+      "also": [
+        515
+      ],
+      "unemployment.": [
+        519
+      ],
+      "Hence,": [
+        520
+      ],
+      "next": [
+        522
+      ],
+      "step": [
+        523
+      ],
+      "approach-the": [
+        526
+      ],
+      "final": [
+        527
+      ],
+      "selection-": [
+        528
+      ],
+      "combine": [
+        530
+      ],
+      "among": [
+        535,
+        540
+      ],
+      "instruments": [
+        541
+      ],
+      "reaching": [
+        543
+      ],
+      "It": [
+        545
+      ],
+      "not,": [
+        547
+      ],
+      "first": [
+        551,
+        617
+      ],
+      "method": [
+        552
+      ],
+      "policymaking,": [
+        554
+      ],
+      "approximate": [
+        555
+      ],
+      "mechanical": [
+        558
+      ],
+      "process": [
+        559
+      ],
+      "choosing": [
+        561
+      ],
+      "means": [
+        563
+      ],
+      "best": [
+        565
+      ],
+      "satisfied": [
+        566
+      ],
+      "goals": [
+        567,
+        584
+      ],
+      "were": [
+        569
+      ],
+      "previously": [
+        570
+      ],
+      "clarified": [
+        571
+      ],
+      "ranked.": [
+        573
+      ],
+      "Because": [
+        574
+      ],
+      "practitioners": [
+        575
+      ],
+      "approach": [
+        579
+      ],
+      "expect": [
+        580,
+        589
+      ],
+      "achieve": [
+        582
+      ],
+      "partially,": [
+        586
+      ],
+      "they": [
+        587
+      ],
+      "repeat": [
+        591
+      ],
+      "endlessly": [
+        592
+      ],
+      "sequence": [
+        594
+      ],
+      "just": [
+        595
+      ],
+      "described,": [
+        596
+      ],
+      "conditions": [
+        598
+      ],
+      "aspirations": [
+        600
+      ],
+      "changed": [
+        601
+      ],
+      "accuracy": [
+        604
+      ],
+      "prediction": [
+        606
+      ],
+      "improved.": [
+        607
+      ],
+      "By": [
+        608
+      ],
+      "Root": [
+        609
+      ],
+      "Branch": [
+        612
+      ],
+      "complex": [
+        614
+      ],
+      "problems,": [
+        615
+      ],
+      "two": [
+        620
+      ],
+      "approaches": [
+        621
+      ],
+      "impossible.": [
+        625
+      ],
+      "\u2026": [
+        626
+      ]
+    },
+    "abstract_inverted_index_v3": null,
+    "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2313563931",
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 57
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 251
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 238
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 273
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 278
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 328
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 318
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 324
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 292
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 288
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 331
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 303
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 324
+      },
+      {
+        "year": 2012,
+        "cited_by_count": 345
+      }
+    ],
+    "updated_date": "2025-05-10T00:10:43.710835",
+    "created_date": "2016-06-24"
+  },
+  {
+    "id": "https://openalex.org/W2097189191",
+    "doi": "https://doi.org/10.1111/j.1752-1688.2012.00670.x",
+    "title": "Trust in Citizen Science Research: A Case Study of the Groundwater Education Through Water Evaluation &amp; Testing Program<sup>1</sup>",
+    "display_name": "Trust in Citizen Science Research: A Case Study of the Groundwater Education Through Water Evaluation &amp; Testing Program<sup>1</sup>",
+    "relevance_score": 259.72537,
+    "publication_year": 2012,
+    "publication_date": "2012-06-20",
+    "ids": {
+      "openalex": "https://openalex.org/W2097189191",
+      "doi": "https://doi.org/10.1111/j.1752-1688.2012.00670.x",
+      "mag": "2097189191"
+    },
+    "language": "en",
+    "primary_location": {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/j.1752-1688.2012.00670.x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S37976914",
+        "display_name": "JAWRA Journal of the American Water Resources Association",
+        "issn_l": "1093-474X",
+        "issn": [
+          "1093-474X",
+          "1752-1688"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    "type": "article",
+    "type_crossref": "journal-article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5109927774",
+          "display_name": "Teresa Thornton",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I7947594",
+            "display_name": "University of Maine",
+            "ror": "https://ror.org/01adr0w49",
+            "country_code": "US",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I2802397601",
+              "https://openalex.org/I7947594"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Teresa Thornton",
+        "raw_affiliation_strings": [
+          "Respectively, Graduate Research Assistant (Thornton) and Associate Professor (Leahy), School of Forest Resources, University of Maine, 241 Nutting Hall, Orono, Maine 04469"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Respectively, Graduate Research Assistant (Thornton) and Associate Professor (Leahy), School of Forest Resources, University of Maine, 241 Nutting Hall, Orono, Maine 04469",
+            "institution_ids": [
+              "https://openalex.org/I7947594"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5070158377",
+          "display_name": "Jessica Leahy",
+          "orcid": "https://orcid.org/0000-0003-1581-9361"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I7947594",
+            "display_name": "University of Maine",
+            "ror": "https://ror.org/01adr0w49",
+            "country_code": "US",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I2802397601",
+              "https://openalex.org/I7947594"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jessica Leahy",
+        "raw_affiliation_strings": [
+          "Respectively, Graduate Research Assistant (Thornton) and Associate Professor (Leahy), School of Forest Resources, University of Maine, 241 Nutting Hall, Orono, Maine 04469"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Respectively, Graduate Research Assistant (Thornton) and Associate Professor (Leahy), School of Forest Resources, University of Maine, 241 Nutting Hall, Orono, Maine 04469",
+            "institution_ids": [
+              "https://openalex.org/I7947594"
+            ]
+          }
+        ]
+      }
+    ],
+    "institution_assertions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 3000,
+      "currency": "USD",
+      "value_usd": 3000
+    },
+    "apc_paid": null,
+    "fwci": 1.646,
+    "has_fulltext": true,
+    "fulltext_origin": "ngrams",
+    "cited_by_count": 42,
+    "citation_normalized_percentile": {
+      "value": 0.924898,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 94,
+      "max": 95
+    },
+    "biblio": {
+      "volume": "48",
+      "issue": "5",
+      "first_page": "1032",
+      "last_page": "1040"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10895",
+      "display_name": "Species Distribution and Climate Change",
+      "score": 0.9994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2302",
+        "display_name": "Ecological Modeling"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10895",
+        "display_name": "Species Distribution and Climate Change",
+        "score": 0.9994,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2302",
+          "display_name": "Ecological Modeling"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12640",
+        "display_name": "Environmental DNA in Biodiversity Studies",
+        "score": 0.9044,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2303",
+          "display_name": "Ecology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/citizen-science",
+        "display_name": "Citizen Science",
+        "score": 0.793498
+      },
+      {
+        "id": "https://openalex.org/keywords/local-community",
+        "display_name": "Local Community",
+        "score": 0.43298894
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C197352329",
+        "wikidata": "https://www.wikidata.org/wiki/Q1093434",
+        "display_name": "Citizen science",
+        "level": 2,
+        "score": 0.793498
+      },
+      {
+        "id": "https://openalex.org/C2778137410",
+        "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+        "display_name": "Government (linguistics)",
+        "level": 2,
+        "score": 0.5158719
+      },
+      {
+        "id": "https://openalex.org/C39549134",
+        "wikidata": "https://www.wikidata.org/wiki/Q133080",
+        "display_name": "Public relations",
+        "level": 1,
+        "score": 0.506241
+      },
+      {
+        "id": "https://openalex.org/C2778719706",
+        "wikidata": "https://www.wikidata.org/wiki/Q6501447",
+        "display_name": "Local government",
+        "level": 2,
+        "score": 0.49570382
+      },
+      {
+        "id": "https://openalex.org/C2779455803",
+        "wikidata": "https://www.wikidata.org/wiki/Q490933",
+        "display_name": "Local community",
+        "level": 2,
+        "score": 0.43298894
+      },
+      {
+        "id": "https://openalex.org/C44877443",
+        "wikidata": "https://www.wikidata.org/wiki/Q2485457",
+        "display_name": "Science education",
+        "level": 2,
+        "score": 0.41522276
+      },
+      {
+        "id": "https://openalex.org/C2779530757",
+        "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+        "display_name": "Quality (philosophy)",
+        "level": 2,
+        "score": 0.41112867
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.40734285
+      },
+      {
+        "id": "https://openalex.org/C509550671",
+        "wikidata": "https://www.wikidata.org/wiki/Q126945",
+        "display_name": "Medical education",
+        "level": 1,
+        "score": 0.3885453
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.3809755
+      },
+      {
+        "id": "https://openalex.org/C3116431",
+        "wikidata": "https://www.wikidata.org/wiki/Q31728",
+        "display_name": "Public administration",
+        "level": 1,
+        "score": 0.21917716
+      },
+      {
+        "id": "https://openalex.org/C19417346",
+        "wikidata": "https://www.wikidata.org/wiki/Q7922",
+        "display_name": "Pedagogy",
+        "level": 1,
+        "score": 0.16992837
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.16757277
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C59822182",
+        "wikidata": "https://www.wikidata.org/wiki/Q441",
+        "display_name": "Botany",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1111/j.1752-1688.2012.00670.x",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S37976914",
+          "display_name": "JAWRA Journal of the American Water Resources Association",
+          "issn_l": "1093-474X",
+          "issn": [
+            "1093-474X",
+            "1752-1688"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_indexed_in_scopus": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/6",
+        "display_name": "Clean water and sanitation",
+        "score": 0.74
+      }
+    ],
+    "grants": [],
+    "datasets": [],
+    "versions": [],
+    "referenced_works_count": 44,
+    "referenced_works": [
+      "https://openalex.org/W1494913828",
+      "https://openalex.org/W1508716387",
+      "https://openalex.org/W1510397006",
+      "https://openalex.org/W1526299364",
+      "https://openalex.org/W1563106132",
+      "https://openalex.org/W1569268909",
+      "https://openalex.org/W1588454345",
+      "https://openalex.org/W1630977809",
+      "https://openalex.org/W1652046215",
+      "https://openalex.org/W1966565904",
+      "https://openalex.org/W1967944900",
+      "https://openalex.org/W1972907345",
+      "https://openalex.org/W1987172718",
+      "https://openalex.org/W1990944405",
+      "https://openalex.org/W1992755027",
+      "https://openalex.org/W1998291839",
+      "https://openalex.org/W2000477954",
+      "https://openalex.org/W2021610626",
+      "https://openalex.org/W2060099575",
+      "https://openalex.org/W2060407618",
+      "https://openalex.org/W2073077882",
+      "https://openalex.org/W2078084396",
+      "https://openalex.org/W2085491458",
+      "https://openalex.org/W2097852684",
+      "https://openalex.org/W2098019303",
+      "https://openalex.org/W2099249392",
+      "https://openalex.org/W2109469951",
+      "https://openalex.org/W2117496611",
+      "https://openalex.org/W2124933900",
+      "https://openalex.org/W2130140239",
+      "https://openalex.org/W2143208280",
+      "https://openalex.org/W2147517975",
+      "https://openalex.org/W2156799558",
+      "https://openalex.org/W2166658986",
+      "https://openalex.org/W2172052405",
+      "https://openalex.org/W2462708431",
+      "https://openalex.org/W3123534837",
+      "https://openalex.org/W3210150310",
+      "https://openalex.org/W38024030",
+      "https://openalex.org/W4231316055",
+      "https://openalex.org/W4234109227",
+      "https://openalex.org/W4252476561",
+      "https://openalex.org/W4299932822",
+      "https://openalex.org/W79229537"
+    ],
+    "related_works": [
+      "https://openalex.org/W4390543730",
+      "https://openalex.org/W4385195624",
+      "https://openalex.org/W380145657",
+      "https://openalex.org/W3115185982",
+      "https://openalex.org/W2889931943",
+      "https://openalex.org/W2618466436",
+      "https://openalex.org/W2495698254",
+      "https://openalex.org/W2275487041",
+      "https://openalex.org/W2182071807",
+      "https://openalex.org/W2077138927"
+    ],
+    "abstract_inverted_index": {
+      "Thornton,": [
+        0
+      ],
+      "Teresa": [
+        1
+      ],
+      "and": [
+        2,
+        57,
+        94,
+        100,
+        123,
+        128,
+        140,
+        142,
+        172,
+        203,
+        209
+      ],
+      "Jessica": [
+        3
+      ],
+      "Leahy,": [
+        4
+      ],
+      "2012.": [
+        5
+      ],
+      "Trust": [
+        6
+      ],
+      "in": [
+        7,
+        61,
+        90,
+        177,
+        183,
+        186
+      ],
+      "Citizen": [
+        8
+      ],
+      "Science": [
+        9
+      ],
+      "Research:": [
+        10
+      ],
+      "A": [
+        11
+      ],
+      "Case": [
+        12
+      ],
+      "Study": [
+        13
+      ],
+      "of": [
+        14,
+        25,
+        59,
+        102,
+        152,
+        195
+      ],
+      "the": [
+        15,
+        26,
+        49,
+        98,
+        109,
+        187
+      ],
+      "Groundwater": [
+        16,
+        110
+      ],
+      "Education": [
+        17,
+        111
+      ],
+      "Through": [
+        18,
+        112
+      ],
+      "Water": [
+        19,
+        28,
+        113
+      ],
+      "Evaluation": [
+        20,
+        114
+      ],
+      "&amp;": [
+        21,
+        115
+      ],
+      "Testing": [
+        22,
+        116
+      ],
+      "Program.": [
+        23
+      ],
+      "Journal": [
+        24
+      ],
+      "American": [
+        27
+      ],
+      "Resources": [
+        29
+      ],
+      "Association": [
+        30
+      ],
+      "(JAWRA)": [
+        31
+      ],
+      "48(5):": [
+        32
+      ],
+      "1032\u20101040.": [
+        33
+      ],
+      "DOI:": [
+        34
+      ],
+      "10.1111/j.1752\u20101688.2012.00670.x": [
+        35
+      ],
+      "Abstract:": [
+        36
+      ],
+      "Data": [
+        37,
+        165
+      ],
+      "collected": [
+        38
+      ],
+      "by": [
+        39,
+        48,
+        74,
+        225
+      ],
+      "citizen": [
+        40,
+        67,
+        91,
+        103,
+        146,
+        179,
+        221
+      ],
+      "scientists,": [
+        41
+      ],
+      "including": [
+        42
+      ],
+      "K\u201012": [
+        43
+      ],
+      "students,": [
+        44,
+        126,
+        141
+      ],
+      "have": [
+        45
+      ],
+      "been": [
+        46
+      ],
+      "validated": [
+        47
+      ],
+      "scientific": [
+        50
+      ],
+      "community": [
+        51,
+        87,
+        216
+      ],
+      "through": [
+        52,
+        168
+      ],
+      "quality": [
+        53,
+        154
+      ],
+      "assurance/quality": [
+        54
+      ],
+      "control": [
+        55
+      ],
+      "tests": [
+        56
+      ],
+      "publication": [
+        58
+      ],
+      "results": [
+        60
+      ],
+      "peer\u2010reviewed": [
+        62
+      ],
+      "journal": [
+        63
+      ],
+      "articles.": [
+        64
+      ],
+      "However,": [
+        65
+      ],
+      "if": [
+        66
+      ],
+      "science": [
+        68,
+        92,
+        104,
+        180,
+        222
+      ],
+      "data": [
+        69,
+        223
+      ],
+      "are": [
+        70,
+        197
+      ],
+      "to": [
+        71,
+        80,
+        85,
+        96,
+        148,
+        219
+      ],
+      "be": [
+        72
+      ],
+      "used": [
+        73
+      ],
+      "local": [
+        75,
+        86,
+        129,
+        161,
+        215
+      ],
+      "communities,": [
+        76
+      ],
+      "research": [
+        77,
+        211
+      ],
+      "is": [
+        78
+      ],
+      "needed": [
+        79
+      ],
+      "determine": [
+        81
+      ],
+      "which": [
+        82
+      ],
+      "factors": [
+        83,
+        194
+      ],
+      "contribute": [
+        84
+      ],
+      "member": [
+        88,
+        217
+      ],
+      "trust": [
+        89,
+        196,
+        202,
+        220
+      ],
+      "data,": [
+        93
+      ],
+      "how": [
+        95
+      ],
+      "increase": [
+        97
+      ],
+      "benefits": [
+        99
+      ],
+      "use": [
+        101,
+        156
+      ],
+      "programs.": [
+        105
+      ],
+      "This": [
+        106
+      ],
+      "article": [
+        107
+      ],
+      "describes": [
+        108
+      ],
+      "(GET": [
+        117
+      ],
+      "WET!)": [
+        118
+      ],
+      "program": [
+        119,
+        181
+      ],
+      "that": [
+        120,
+        193,
+        212
+      ],
+      "employs": [
+        121
+      ],
+      "middle": [
+        122
+      ],
+      "high": [
+        124
+      ],
+      "school": [
+        125
+      ],
+      "state": [
+        127
+      ],
+      "government": [
+        130
+      ],
+      "employees,": [
+        131
+      ],
+      "environmental": [
+        132
+      ],
+      "nongovernmental": [
+        133
+      ],
+      "organization": [
+        134
+      ],
+      "leaders,": [
+        135
+      ],
+      "business": [
+        136
+      ],
+      "representatives,": [
+        137
+      ],
+      "college": [
+        138
+      ],
+      "faculty": [
+        139
+      ],
+      "other": [
+        143
+      ],
+      "volunteers": [
+        144
+      ],
+      "as": [
+        145,
+        157
+      ],
+      "scientists": [
+        147
+      ],
+      "create": [
+        149
+      ],
+      "a": [
+        150,
+        158
+      ],
+      "database": [
+        151
+      ],
+      "groundwater": [
+        153
+      ],
+      "for": [
+        155,
+        160
+      ],
+      "baseline": [
+        159
+      ],
+      "water": [
+        162
+      ],
+      "resources": [
+        163
+      ],
+      "management.": [
+        164
+      ],
+      "were": [
+        166
+      ],
+      "gathered": [
+        167
+      ],
+      "semi\u2010structured": [
+        169
+      ],
+      "interviews": [
+        170
+      ],
+      "pre\u2010": [
+        171
+      ],
+      "post\u2010involvement": [
+        173
+      ],
+      "from": [
+        174
+      ],
+      "40": [
+        175
+      ],
+      "participants": [
+        176
+      ],
+      "this": [
+        178
+      ],
+      "conducted": [
+        182
+      ],
+      "five": [
+        184
+      ],
+      "states": [
+        185
+      ],
+      "northeastern": [
+        188
+      ],
+      "United": [
+        189
+      ],
+      "States.": [
+        190
+      ],
+      "Results": [
+        191
+      ],
+      "indicate": [
+        192
+      ],
+      "largely": [
+        198
+      ],
+      "based": [
+        199
+      ],
+      "on": [
+        200
+      ],
+      "interpersonal": [
+        201
+      ],
+      "familiarity.": [
+        204
+      ],
+      "We": [
+        205
+      ],
+      "conclude": [
+        206
+      ],
+      "with": [
+        207
+      ],
+      "recommendations": [
+        208
+      ],
+      "future": [
+        210
+      ],
+      "may": [
+        213
+      ],
+      "improve": [
+        214
+      ],
+      "willingness": [
+        218
+      ],
+      "generated": [
+        224
+      ],
+      "students.": [
+        226
+      ]
+    },
+    "abstract_inverted_index_v3": null,
+    "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2097189191",
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-05-01T21:44:25.835395",
+    "created_date": "2016-06-24"
+  },
+  {
+    "id": "https://openalex.org/W2764146914",
+    "doi": "https://doi.org/10.4314/wsa.v43i3.01",
+    "title": "Design and implementation of a citizen technician\u2013based suspended sediment monitoring network: Lessons from the Tsitsa River catchment, South Africa",
+    "display_name": "Design and implementation of a citizen technician\u2013based suspended sediment monitoring network: Lessons from the Tsitsa River catchment, South Africa",
+    "relevance_score": 44.12291,
+    "publication_year": 2017,
+    "publication_date": "2017-08-02",
+    "ids": {
+      "openalex": "https://openalex.org/W2764146914",
+      "doi": "https://doi.org/10.4314/wsa.v43i3.01",
+      "mag": "2764146914"
+    },
+    "language": "en",
+    "primary_location": {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.4314/wsa.v43i3.01",
+      "pdf_url": "https://www.ajol.info/index.php/wsa/article/download/159648/149201",
+      "source": {
+        "id": "https://openalex.org/S181252140",
+        "display_name": "Water SA",
+        "issn_l": "0378-4738",
+        "issn": [
+          "0378-4738",
+          "1816-7950"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315334",
+        "host_organization_name": "Water Research Commission",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315334"
+        ],
+        "host_organization_lineage_names": [
+          "Water Research Commission"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    "type": "article",
+    "type_crossref": "journal-article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://www.ajol.info/index.php/wsa/article/download/159648/149201",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5068276089",
+          "display_name": "Laura Bannatyne",
+          "orcid": "https://orcid.org/0000-0003-0143-3310"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I203238179",
+            "display_name": "Rhodes University",
+            "ror": "https://ror.org/016sewp10",
+            "country_code": "ZA",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I203238179"
+            ]
+          }
+        ],
+        "countries": [
+          "ZA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "L.J. Bannatyne",
+        "raw_affiliation_strings": [
+          "Geography Department, Rhodes University, PO Box 94, Grahamstown 6140, South Africa"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Geography Department, Rhodes University, PO Box 94, Grahamstown 6140, South Africa",
+            "institution_ids": [
+              "https://openalex.org/I203238179"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5076228334",
+          "display_name": "Kate Rowntree",
+          "orcid": "https://orcid.org/0000-0003-0334-1137"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I203238179",
+            "display_name": "Rhodes University",
+            "ror": "https://ror.org/016sewp10",
+            "country_code": "ZA",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I203238179"
+            ]
+          }
+        ],
+        "countries": [
+          "ZA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "K.M. Rowntree",
+        "raw_affiliation_strings": [
+          "Geography Department, Rhodes University, PO Box 94, Grahamstown 6140, South Africa"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Geography Department, Rhodes University, PO Box 94, Grahamstown 6140, South Africa",
+            "institution_ids": [
+              "https://openalex.org/I203238179"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5090706854",
+          "display_name": "Bennie W. van der Waal",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I203238179",
+            "display_name": "Rhodes University",
+            "ror": "https://ror.org/016sewp10",
+            "country_code": "ZA",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I203238179"
+            ]
+          }
+        ],
+        "countries": [
+          "ZA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "B.W. Van der Waal",
+        "raw_affiliation_strings": [
+          "Geography Department, Rhodes University, PO Box 94, Grahamstown 6140, South Africa"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Geography Department, Rhodes University, PO Box 94, Grahamstown 6140, South Africa",
+            "institution_ids": [
+              "https://openalex.org/I203238179"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5069700809",
+          "display_name": "Namso Nyamela",
+          "orcid": "https://orcid.org/0000-0003-1630-647X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I203238179",
+            "display_name": "Rhodes University",
+            "ror": "https://ror.org/016sewp10",
+            "country_code": "ZA",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I203238179"
+            ]
+          }
+        ],
+        "countries": [
+          "ZA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "N Nyamela",
+        "raw_affiliation_strings": [
+          "Geography Department, Rhodes University, PO Box 94, Grahamstown 6140, South Africa"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Geography Department, Rhodes University, PO Box 94, Grahamstown 6140, South Africa",
+            "institution_ids": [
+              "https://openalex.org/I203238179"
+            ]
+          }
+        ]
+      }
+    ],
+    "institution_assertions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 0,
+      "currency": "USD",
+      "value_usd": 0
+    },
+    "apc_paid": null,
+    "fwci": 4.097,
+    "has_fulltext": true,
+    "fulltext_origin": "ngrams",
+    "cited_by_count": 42,
+    "citation_normalized_percentile": {
+      "value": 0.788214,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 95,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "43",
+      "issue": "3",
+      "first_page": "365",
+      "last_page": "365"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10577",
+      "display_name": "Hydrology and Sediment Transport Processes",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10577",
+        "display_name": "Hydrology and Sediment Transport Processes",
+        "score": 0.9992,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2303",
+          "display_name": "Ecology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10889",
+        "display_name": "Soil erosion and sediment transport",
+        "score": 0.9991,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1111",
+          "display_name": "Soil Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10330",
+        "display_name": "Hydrology and Watershed Management Studies",
+        "score": 0.9972,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2312",
+          "display_name": "Water Science and Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/weir",
+        "display_name": "Weir",
+        "score": 0.5418708
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C76886044",
+        "wikidata": "https://www.wikidata.org/wiki/Q2883300",
+        "display_name": "Hydrology (agriculture)",
+        "level": 2,
+        "score": 0.6774767
+      },
+      {
+        "id": "https://openalex.org/C39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "level": 0,
+        "score": 0.5907264
+      },
+      {
+        "id": "https://openalex.org/C16828302",
+        "wikidata": "https://www.wikidata.org/wiki/Q159675",
+        "display_name": "Tributary",
+        "level": 2,
+        "score": 0.5496208
+      },
+      {
+        "id": "https://openalex.org/C2779276979",
+        "wikidata": "https://www.wikidata.org/wiki/Q1066997",
+        "display_name": "Weir",
+        "level": 2,
+        "score": 0.5418708
+      },
+      {
+        "id": "https://openalex.org/C74256435",
+        "wikidata": "https://www.wikidata.org/wiki/Q134052",
+        "display_name": "Flood myth",
+        "level": 2,
+        "score": 0.4703073
+      },
+      {
+        "id": "https://openalex.org/C126645576",
+        "wikidata": "https://www.wikidata.org/wiki/Q166620",
+        "display_name": "Drainage basin",
+        "level": 2,
+        "score": 0.4672166
+      },
+      {
+        "id": "https://openalex.org/C140779682",
+        "wikidata": "https://www.wikidata.org/wiki/Q210868",
+        "display_name": "Sampling (signal processing)",
+        "level": 3,
+        "score": 0.45501745
+      },
+      {
+        "id": "https://openalex.org/C2816523",
+        "wikidata": "https://www.wikidata.org/wiki/Q180184",
+        "display_name": "Sediment",
+        "level": 2,
+        "score": 0.45429435
+      },
+      {
+        "id": "https://openalex.org/C2780151969",
+        "wikidata": "https://www.wikidata.org/wiki/Q949149",
+        "display_name": "Sanitation",
+        "level": 2,
+        "score": 0.43448567
+      },
+      {
+        "id": "https://openalex.org/C524765639",
+        "wikidata": "https://www.wikidata.org/wiki/Q1501619",
+        "display_name": "Water resource management",
+        "level": 1,
+        "score": 0.40961096
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.31143484
+      },
+      {
+        "id": "https://openalex.org/C87717796",
+        "wikidata": "https://www.wikidata.org/wiki/Q146326",
+        "display_name": "Environmental engineering",
+        "level": 1,
+        "score": 0.18273509
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.14412075
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.13328394
+      },
+      {
+        "id": "https://openalex.org/C58640448",
+        "wikidata": "https://www.wikidata.org/wiki/Q42515",
+        "display_name": "Cartography",
+        "level": 1,
+        "score": 0.12598771
+      },
+      {
+        "id": "https://openalex.org/C151730666",
+        "wikidata": "https://www.wikidata.org/wiki/Q7205",
+        "display_name": "Paleontology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C187320778",
+        "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+        "display_name": "Geotechnical engineering",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C106131492",
+        "wikidata": "https://www.wikidata.org/wiki/Q3072260",
+        "display_name": "Filter (signal processing)",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C119599485",
+        "wikidata": "https://www.wikidata.org/wiki/Q43035",
+        "display_name": "Electrical engineering",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.4314/wsa.v43i3.01",
+        "pdf_url": "https://www.ajol.info/index.php/wsa/article/download/159648/149201",
+        "source": {
+          "id": "https://openalex.org/S181252140",
+          "display_name": "Water SA",
+          "issn_l": "0378-4738",
+          "issn": [
+            "0378-4738",
+            "1816-7950"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_indexed_in_scopus": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315334",
+          "host_organization_name": "Water Research Commission",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315334"
+          ],
+          "host_organization_lineage_names": [
+            "Water Research Commission"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true
+      }
+    ],
+    "best_oa_location": {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.4314/wsa.v43i3.01",
+      "pdf_url": "https://www.ajol.info/index.php/wsa/article/download/159648/149201",
+      "source": {
+        "id": "https://openalex.org/S181252140",
+        "display_name": "Water SA",
+        "issn_l": "0378-4738",
+        "issn": [
+          "0378-4738",
+          "1816-7950"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315334",
+        "host_organization_name": "Water Research Commission",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315334"
+        ],
+        "host_organization_lineage_names": [
+          "Water Research Commission"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    "sustainable_development_goals": [],
+    "grants": [],
+    "datasets": [],
+    "versions": [],
+    "referenced_works_count": 15,
+    "referenced_works": [
+      "https://openalex.org/W1970130975",
+      "https://openalex.org/W1974080507",
+      "https://openalex.org/W1987172718",
+      "https://openalex.org/W1991154034",
+      "https://openalex.org/W2006985316",
+      "https://openalex.org/W2008881367",
+      "https://openalex.org/W2064816520",
+      "https://openalex.org/W2087265149",
+      "https://openalex.org/W2092435486",
+      "https://openalex.org/W2097643062",
+      "https://openalex.org/W2098736468",
+      "https://openalex.org/W2151915598",
+      "https://openalex.org/W2154555113",
+      "https://openalex.org/W2559914262",
+      "https://openalex.org/W2764146914"
+    ],
+    "related_works": [
+      "https://openalex.org/W766896506",
+      "https://openalex.org/W4241758020",
+      "https://openalex.org/W3211266215",
+      "https://openalex.org/W3201643435",
+      "https://openalex.org/W3102701868",
+      "https://openalex.org/W261249232",
+      "https://openalex.org/W2530698147",
+      "https://openalex.org/W2323916994",
+      "https://openalex.org/W2052002685",
+      "https://openalex.org/W1927124235"
+    ],
+    "abstract_inverted_index": {
+      "Locally": [
+        0
+      ],
+      "resident": [
+        1
+      ],
+      "citizen": [
+        2,
+        145,
+        228,
+        234
+      ],
+      "technicians": [
+        3,
+        146
+      ],
+      "using": [
+        4
+      ],
+      "basic": [
+        5
+      ],
+      "equipment": [
+        6,
+        129
+      ],
+      "and": [
+        7,
+        26,
+        41,
+        52,
+        70,
+        91,
+        125,
+        132,
+        151,
+        175,
+        181,
+        195,
+        204,
+        217
+      ],
+      "Open": [
+        8,
+        236
+      ],
+      "Data": [
+        9,
+        237
+      ],
+      "Kit\u2013enabled": [
+        10
+      ],
+      "smartphones": [
+        11
+      ],
+      "have": [
+        12
+      ],
+      "collected": [
+        13,
+        142
+      ],
+      "flood-focused": [
+        14
+      ],
+      "suspended": [
+        15,
+        232
+      ],
+      "sediment": [
+        16,
+        66
+      ],
+      "(SS)": [
+        17
+      ],
+      "samples": [
+        18
+      ],
+      "from": [
+        19
+      ],
+      "11": [
+        20
+      ],
+      "sites": [
+        21
+      ],
+      "on": [
+        22,
+        61,
+        112
+      ],
+      "the": [
+        23,
+        30,
+        38,
+        56,
+        80,
+        94,
+        103,
+        106,
+        126,
+        139,
+        144,
+        201,
+        212
+      ],
+      "Tsitsa": [
+        24,
+        43,
+        226
+      ],
+      "River": [
+        25,
+        44
+      ],
+      "its": [
+        27
+      ],
+      "tributaries,": [
+        28
+      ],
+      "in": [
+        29,
+        87
+      ],
+      "Eastern": [
+        31
+      ],
+      "Cape": [
+        32
+      ],
+      "Province": [
+        33
+      ],
+      "of": [
+        34,
+        58,
+        82,
+        97,
+        105,
+        128,
+        138,
+        173,
+        193,
+        206
+      ],
+      "South": [
+        35
+      ],
+      "Africa.": [
+        36
+      ],
+      "In": [
+        37
+      ],
+      "highly": [
+        39
+      ],
+      "degraded": [
+        40
+      ],
+      "gullied": [
+        42
+      ],
+      "catchment,": [
+        45
+      ],
+      "existing": [
+        46
+      ],
+      "modelled": [
+        47
+      ],
+      "SS": [
+        48,
+        100,
+        196,
+        223
+      ],
+      "data": [
+        49,
+        72,
+        141,
+        153,
+        183
+      ],
+      "were": [
+        50,
+        73,
+        118
+      ],
+      "unverified": [
+        51
+      ],
+      "at": [
+        53,
+        75,
+        102,
+        157,
+        169
+      ],
+      "odds": [
+        54
+      ],
+      "with": [
+        55
+      ],
+      "results": [
+        57
+      ],
+      "studies": [
+        59
+      ],
+      "based": [
+        60
+      ],
+      "dam": [
+        62
+      ],
+      "sedimentation": [
+        63
+      ],
+      "rates.": [
+        64
+      ],
+      "Suspended": [
+        65
+      ],
+      "concentration": [
+        67
+      ],
+      "(SSC),": [
+        68
+      ],
+      "flux": [
+        69
+      ],
+      "yield": [
+        71,
+        101,
+        152
+      ],
+      "required": [
+        74
+      ],
+      "subcatchment": [
+        76,
+        158
+      ],
+      "scale": [
+        77
+      ],
+      "to": [
+        78,
+        92,
+        99,
+        154,
+        187,
+        214
+      ],
+      "support": [
+        79
+      ],
+      "prioritisation": [
+        81
+      ],
+      "community-based": [
+        83
+      ],
+      "land": [
+        84
+      ],
+      "rehabilitation": [
+        85
+      ],
+      "initiatives": [
+        86
+      ],
+      "rural": [
+        88
+      ],
+      "communal": [
+        89
+      ],
+      "areas": [
+        90
+      ],
+      "determine": [
+        93
+      ],
+      "relative": [
+        95
+      ],
+      "contributions": [
+        96
+      ],
+      "subcatchments": [
+        98
+      ],
+      "site": [
+        104
+      ],
+      "proposed": [
+        107
+      ],
+      "Ntabelanga": [
+        108
+      ],
+      "Dam.": [
+        109
+      ],
+      "Approaches": [
+        110
+      ],
+      "relying": [
+        111
+      ],
+      "researcher": [
+        113
+      ],
+      "presence": [
+        114
+      ],
+      "and/or": [
+        115
+      ],
+      "installed": [
+        116
+      ],
+      "instrumentation": [
+        117
+      ],
+      "precluded": [
+        119
+      ],
+      "by": [
+        120,
+        143,
+        164
+      ],
+      "cost,": [
+        121
+      ],
+      "study": [
+        122
+      ],
+      "area": [
+        123
+      ],
+      "size,": [
+        124
+      ],
+      "risk": [
+        127
+      ],
+      "theft,": [
+        130
+      ],
+      "vandalism": [
+        131
+      ],
+      "damage": [
+        133
+      ],
+      "during": [
+        134,
+        222
+      ],
+      "high": [
+        135
+      ],
+      "flows.": [
+        136
+      ],
+      "Analysis": [
+        137
+      ],
+      "quantitative": [
+        140
+      ],
+      "allows": [
+        147,
+        184
+      ],
+      "high-resolution": [
+        148
+      ],
+      "SSC,": [
+        149
+      ],
+      "flux,": [
+        150
+      ],
+      "be": [
+        155,
+        162
+      ],
+      "produced": [
+        156
+      ],
+      "scale,": [
+        159
+      ],
+      "which": [
+        160
+      ],
+      "will": [
+        161
+      ],
+      "benchmarked": [
+        163
+      ],
+      "an": [
+        165
+      ],
+      "acoustic": [
+        166
+      ],
+      "SSC": [
+        167
+      ],
+      "probe": [
+        168
+      ],
+      "a": [
+        170,
+        189,
+        207
+      ],
+      "downstream": [
+        171
+      ],
+      "Department": [
+        172
+      ],
+      "Water": [
+        174
+      ],
+      "Sanitation": [
+        176
+      ],
+      "gauging": [
+        177
+      ],
+      "weir.": [
+        178
+      ],
+      "Qualitative": [
+        179
+      ],
+      "descriptive": [
+        180
+      ],
+      "photographic": [
+        182
+      ],
+      "distant": [
+        185
+      ],
+      "researchers": [
+        186
+      ],
+      "gain": [
+        188
+      ],
+      "real-time,": [
+        190
+      ],
+      "catchment-wide": [
+        191
+      ],
+      "overview": [
+        192
+      ],
+      "river": [
+        194
+      ],
+      "levels.": [
+        197
+      ],
+      "This": [
+        198
+      ],
+      "paper": [
+        199
+      ],
+      "outlines": [
+        200
+      ],
+      "method,": [
+        202
+      ],
+      "benefits": [
+        203
+      ],
+      "challenges": [
+        205,
+        219
+      ],
+      "direct-sampling": [
+        208
+      ],
+      "approach": [
+        209
+      ],
+      "that": [
+        210
+      ],
+      "has": [
+        211
+      ],
+      "potential": [
+        213
+      ],
+      "address": [
+        215
+      ],
+      "spatial": [
+        216
+      ],
+      "temporal": [
+        218
+      ],
+      "commonly": [
+        220
+      ],
+      "experienced": [
+        221
+      ],
+      "sampling": [
+        224
+      ],
+      "campaigns.Keywords:": [
+        225
+      ],
+      "River,": [
+        227
+      ],
+      "science,": [
+        229
+      ],
+      "flood": [
+        230
+      ],
+      "sampling,": [
+        231
+      ],
+      "sediment,": [
+        233
+      ],
+      "technician,": [
+        235
+      ],
+      "Kit,": [
+        238
+      ],
+      "catchment": [
+        239
+      ],
+      "restoration": [
+        240
+      ],
+      "management": [
+        241
+      ]
+    },
+    "abstract_inverted_index_v3": null,
+    "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2764146914",
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 17
+      }
+    ],
+    "updated_date": "2025-05-04T20:12:38.010750",
+    "created_date": "2017-10-20"
+  },
+  {
+    "id": "https://openalex.org/W4289731676",
+    "doi": "https://doi.org/10.3390/su14159516",
+    "title": "Citizen Science as an Innovative Approach to Analyze Spatial and Temporal Influences on Nitrate Pollution of Water Bodies: Results of a Participatory Research Project in Germany",
+    "display_name": "Citizen Science as an Innovative Approach to Analyze Spatial and Temporal Influences on Nitrate Pollution of Water Bodies: Results of a Participatory Research Project in Germany",
+    "relevance_score": 87.73278,
+    "publication_year": 2022,
+    "publication_date": "2022-08-03",
+    "ids": {
+      "openalex": "https://openalex.org/W4289731676",
+      "doi": "https://doi.org/10.3390/su14159516"
+    },
+    "language": "en",
+    "primary_location": {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/su14159516",
+      "pdf_url": "https://www.mdpi.com/2071-1050/14/15/9516/pdf?version=1659519902",
+      "source": {
+        "id": "https://openalex.org/S10134376",
+        "display_name": "Sustainability",
+        "issn_l": "2071-1050",
+        "issn": [
+          "2071-1050"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    "type": "article",
+    "type_crossref": "journal-article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2071-1050/14/15/9516/pdf?version=1659519902",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5050654741",
+          "display_name": "Frauke Brockhage",
+          "orcid": "https://orcid.org/0000-0002-6224-9616"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I170658231",
+            "display_name": "Osnabr\u00fcck University",
+            "ror": "https://ror.org/04qmmjx98",
+            "country_code": "DE",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I170658231"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Frauke Brockhage",
+        "raw_affiliation_strings": [
+          "Department of Biology/Chemistry, University of Osnabr\u00fcck, 49076 Osnabr\u00fcck, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biology/Chemistry, University of Osnabr\u00fcck, 49076 Osnabr\u00fcck, Germany",
+            "institution_ids": [
+              "https://openalex.org/I170658231"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5026705736",
+          "display_name": "Mientje L\u00fcsse",
+          "orcid": "https://orcid.org/0000-0001-5911-1088"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I129877168",
+            "display_name": "Carl von Ossietzky Universit\u00e4t Oldenburg",
+            "ror": "https://ror.org/033n9gh91",
+            "country_code": "DE",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I129877168"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mientje L\u00fcsse",
+        "raw_affiliation_strings": [
+          "Institute of Chemistry, University of Oldenburg, 26111 Oldenburg, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Chemistry, University of Oldenburg, 26111 Oldenburg, Germany",
+            "institution_ids": [
+              "https://openalex.org/I129877168"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5036105438",
+          "display_name": "J\u00f6rg Klasmeier",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I170658231",
+            "display_name": "Osnabr\u00fcck University",
+            "ror": "https://ror.org/04qmmjx98",
+            "country_code": "DE",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I170658231"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "J\u00f6rg Klasmeier",
+        "raw_affiliation_strings": [
+          "Institute of Environmental Systems Research, University of Osnabr\u00fcck, 49076 Osnabr\u00fcck, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Environmental Systems Research, University of Osnabr\u00fcck, 49076 Osnabr\u00fcck, Germany",
+            "institution_ids": [
+              "https://openalex.org/I170658231"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062398733",
+          "display_name": "Verena Pietzner",
+          "orcid": "https://orcid.org/0000-0003-3423-6997"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I167277809",
+            "display_name": "University of Vechta",
+            "ror": "https://ror.org/045y6d111",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I167277809"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Verena Pietzner",
+        "raw_affiliation_strings": [
+          "University of Vechta, 49377 Vechta, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Vechta, 49377 Vechta, Germany",
+            "institution_ids": [
+              "https://openalex.org/I167277809"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5027727244",
+          "display_name": "Marco Beeken",
+          "orcid": "https://orcid.org/0000-0002-1874-0782"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I170658231",
+            "display_name": "Osnabr\u00fcck University",
+            "ror": "https://ror.org/04qmmjx98",
+            "country_code": "DE",
+            "type": "funder",
+            "lineage": [
+              "https://openalex.org/I170658231"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Marco Beeken",
+        "raw_affiliation_strings": [
+          "Department of Biology/Chemistry, University of Osnabr\u00fcck, 49076 Osnabr\u00fcck, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biology/Chemistry, University of Osnabr\u00fcck, 49076 Osnabr\u00fcck, Germany",
+            "institution_ids": [
+              "https://openalex.org/I170658231"
+            ]
+          }
+        ]
+      }
+    ],
+    "institution_assertions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5050654741",
+      "https://openalex.org/A5027727244"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I170658231",
+      "https://openalex.org/I170658231"
+    ],
+    "apc_list": {
+      "value": 2200,
+      "currency": "CHF",
+      "value_usd": 2382
+    },
+    "apc_paid": {
+      "value": 2179,
+      "currency": "EUR",
+      "value_usd": 2350
+    },
+    "fwci": 0.369,
+    "has_fulltext": false,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.461801,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 75,
+      "max": 78
+    },
+    "biblio": {
+      "volume": "14",
+      "issue": "15",
+      "first_page": "9516",
+      "last_page": "9516"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10895",
+      "display_name": "Species Distribution and Climate Change",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2302",
+        "display_name": "Ecological Modeling"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10895",
+        "display_name": "Species Distribution and Climate Change",
+        "score": 0.9998,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2302",
+          "display_name": "Ecological Modeling"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11488",
+        "display_name": "Climate Change Communication and Perception",
+        "score": 0.9631,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/citizen-science",
+        "display_name": "Citizen Science",
+        "score": 0.7964947
+      },
+      {
+        "id": "https://openalex.org/keywords/nutrient-pollution",
+        "display_name": "Nutrient pollution",
+        "score": 0.5340611
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C197352329",
+        "wikidata": "https://www.wikidata.org/wiki/Q1093434",
+        "display_name": "Citizen science",
+        "level": 2,
+        "score": 0.7964947
+      },
+      {
+        "id": "https://openalex.org/C2776384668",
+        "wikidata": "https://www.wikidata.org/wiki/Q182168",
+        "display_name": "Nitrate",
+        "level": 2,
+        "score": 0.5718196
+      },
+      {
+        "id": "https://openalex.org/C39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "level": 0,
+        "score": 0.5671141
+      },
+      {
+        "id": "https://openalex.org/C521259446",
+        "wikidata": "https://www.wikidata.org/wiki/Q58734",
+        "display_name": "Pollution",
+        "level": 2,
+        "score": 0.53899556
+      },
+      {
+        "id": "https://openalex.org/C93419950",
+        "wikidata": "https://www.wikidata.org/wiki/Q12203192",
+        "display_name": "Nutrient pollution",
+        "level": 3,
+        "score": 0.5340611
+      },
+      {
+        "id": "https://openalex.org/C159620131",
+        "wikidata": "https://www.wikidata.org/wiki/Q1938983",
+        "display_name": "Spatial analysis",
+        "level": 2,
+        "score": 0.4179585
+      },
+      {
+        "id": "https://openalex.org/C107826830",
+        "wikidata": "https://www.wikidata.org/wiki/Q929380",
+        "display_name": "Environmental resource management",
+        "level": 1,
+        "score": 0.36092404
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.31432614
+      },
+      {
+        "id": "https://openalex.org/C18903297",
+        "wikidata": "https://www.wikidata.org/wiki/Q7150",
+        "display_name": "Ecology",
+        "level": 1,
+        "score": 0.21894294
+      },
+      {
+        "id": "https://openalex.org/C62649853",
+        "wikidata": "https://www.wikidata.org/wiki/Q199687",
+        "display_name": "Remote sensing",
+        "level": 1,
+        "score": 0.1593459
+      },
+      {
+        "id": "https://openalex.org/C59822182",
+        "wikidata": "https://www.wikidata.org/wiki/Q441",
+        "display_name": "Botany",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/su14159516",
+        "pdf_url": "https://www.mdpi.com/2071-1050/14/15/9516/pdf?version=1659519902",
+        "source": {
+          "id": "https://openalex.org/S10134376",
+          "display_name": "Sustainability",
+          "issn_l": "2071-1050",
+          "issn": [
+            "2071-1050"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_indexed_in_scopus": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true
+      },
+      {
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/24a6b4c02d054b6f96f2ea772fbbaafe",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_indexed_in_scopus": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false
+      },
+      {
+        "is_oa": true,
+        "landing_page_url": "https://osnadocs.ub.uni-osnabrueck.de/bitstream/ds-202305038886/1/Brockhage_etal_sustainability_2022.pdf",
+        "pdf_url": "https://osnadocs.ub.uni-osnabrueck.de/bitstream/ds-202305038886/1/Brockhage_etal_sustainability_2022.pdf",
+        "source": {
+          "id": "https://openalex.org/S4377196933",
+          "display_name": "osnaDocs (Osnabr\u00fcck University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_indexed_in_scopus": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I170658231",
+          "host_organization_name": "Osnabr\u00fcck University",
+          "host_organization_lineage": [
+            "https://openalex.org/I170658231"
+          ],
+          "host_organization_lineage_names": [
+            "Osnabr\u00fcck University"
+          ],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true
+      }
+    ],
+    "best_oa_location": {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/su14159516",
+      "pdf_url": "https://www.mdpi.com/2071-1050/14/15/9516/pdf?version=1659519902",
+      "source": {
+        "id": "https://openalex.org/S10134376",
+        "display_name": "Sustainability",
+        "issn_l": "2071-1050",
+        "issn": [
+          "2071-1050"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/6",
+        "display_name": "Clean water and sanitation",
+        "score": 0.53
+      }
+    ],
+    "grants": [
+      {
+        "funder": "https://openalex.org/F4320309954",
+        "funder_display_name": "Deutsche Bundesstiftung Umwelt",
+        "award_id": "34540"
+      }
+    ],
+    "datasets": [],
+    "versions": [],
+    "referenced_works_count": 25,
+    "referenced_works": [
+      "https://openalex.org/W1489429346",
+      "https://openalex.org/W1586216651",
+      "https://openalex.org/W1972978214",
+      "https://openalex.org/W1999167944",
+      "https://openalex.org/W2014538668",
+      "https://openalex.org/W2040026664",
+      "https://openalex.org/W2041282815",
+      "https://openalex.org/W2124163338",
+      "https://openalex.org/W2128888862",
+      "https://openalex.org/W2157186005",
+      "https://openalex.org/W2314210620",
+      "https://openalex.org/W2535207946",
+      "https://openalex.org/W2884633298",
+      "https://openalex.org/W2912975761",
+      "https://openalex.org/W2967453844",
+      "https://openalex.org/W2979527643",
+      "https://openalex.org/W2979674131",
+      "https://openalex.org/W3038187379",
+      "https://openalex.org/W3078698676",
+      "https://openalex.org/W3124280324",
+      "https://openalex.org/W3189362205",
+      "https://openalex.org/W4220724572",
+      "https://openalex.org/W4225371879",
+      "https://openalex.org/W4241727697",
+      "https://openalex.org/W4252684946"
+    ],
+    "related_works": [
+      "https://openalex.org/W4389741680",
+      "https://openalex.org/W4385719946",
+      "https://openalex.org/W2965011540",
+      "https://openalex.org/W2776392396",
+      "https://openalex.org/W2479871838",
+      "https://openalex.org/W2389270650",
+      "https://openalex.org/W2379734461",
+      "https://openalex.org/W2354456502",
+      "https://openalex.org/W2134020923",
+      "https://openalex.org/W2093345377"
+    ],
+    "abstract_inverted_index": {
+      "Anthropogenic": [
+        0
+      ],
+      "influences": [
+        1
+      ],
+      "and": [
+        2,
+        38,
+        55,
+        74,
+        164,
+        167,
+        189,
+        196,
+        246,
+        258,
+        260,
+        307,
+        313
+      ],
+      "the": [
+        3,
+        11,
+        17,
+        36,
+        70,
+        96,
+        125,
+        140,
+        157,
+        169,
+        174,
+        213,
+        224,
+        233,
+        240,
+        244,
+        272,
+        277,
+        280,
+        283,
+        291,
+        294
+      ],
+      "excessive": [
+        4
+      ],
+      "input": [
+        5
+      ],
+      "of": [
+        6,
+        72,
+        98,
+        106,
+        133,
+        176,
+        217,
+        223,
+        239,
+        279,
+        286,
+        293
+      ],
+      "reactive": [
+        7
+      ],
+      "nitrogen": [
+        8,
+        19,
+        104,
+        311
+      ],
+      "compounds": [
+        9
+      ],
+      "into": [
+        10
+      ],
+      "environment": [
+        12
+      ],
+      "have": [
+        13
+      ],
+      "already": [
+        14
+      ],
+      "severely": [
+        15
+      ],
+      "destabilized": [
+        16
+      ],
+      "natural": [
+        18
+      ],
+      "cycle.": [
+        20
+      ],
+      "Especially": [
+        21
+      ],
+      "in": [
+        22,
+        62,
+        243
+      ],
+      "northwestern": [
+        23
+      ],
+      "Germany,": [
+        24
+      ],
+      "many": [
+        25
+      ],
+      "water": [
+        26,
+        40,
+        107,
+        317
+      ],
+      "bodies": [
+        27
+      ],
+      "are": [
+        28,
+        118,
+        171
+      ],
+      "polluted": [
+        29
+      ],
+      "by": [
+        30,
+        69,
+        229
+      ],
+      "nitrate,": [
+        31
+      ],
+      "inducing": [
+        32
+      ],
+      "negative": [
+        33
+      ],
+      "effects": [
+        34
+      ],
+      "on": [
+        35,
+        103,
+        249
+      ],
+      "ecosystem": [
+        37
+      ],
+      "drinking": [
+        39
+      ],
+      "as": [
+        41,
+        43,
+        120,
+        186,
+        255,
+        263,
+        265,
+        320
+      ],
+      "well": [
+        42,
+        264
+      ],
+      "possible": [
+        44,
+        204
+      ],
+      "risks": [
+        45
+      ],
+      "to": [
+        46,
+        87,
+        94,
+        129,
+        147,
+        154,
+        205,
+        212,
+        304,
+        316
+      ],
+      "human": [
+        47
+      ],
+      "health.": [
+        48
+      ],
+      "In": [
+        49,
+        109
+      ],
+      "cooperation": [
+        50
+      ],
+      "with": [
+        51,
+        173,
+        193,
+        271,
+        282
+      ],
+      "almost": [
+        52
+      ],
+      "600": [
+        53
+      ],
+      "citizens": [
+        54
+      ],
+      "200": [
+        56
+      ],
+      "students,": [
+        57
+      ],
+      "this": [
+        58,
+        181
+      ],
+      "issue": [
+        59
+      ],
+      "was": [
+        60,
+        202,
+        227
+      ],
+      "addressed": [
+        61
+      ],
+      "a": [
+        63,
+        110,
+        121,
+        207,
+        220,
+        236
+      ],
+      "citizen": [
+        64,
+        99,
+        126,
+        141,
+        273,
+        295,
+        299
+      ],
+      "science": [
+        65,
+        100,
+        127,
+        142,
+        274,
+        296,
+        300
+      ],
+      "project": [
+        66
+      ],
+      "carried": [
+        67
+      ],
+      "out": [
+        68
+      ],
+      "Universities": [
+        71
+      ],
+      "Osnabr\u00fcck": [
+        73
+      ],
+      "Oldenburg,": [
+        75
+      ],
+      "gathering": [
+        76
+      ],
+      "8754": [
+        77
+      ],
+      "nitrate": [
+        78,
+        115,
+        134,
+        241
+      ],
+      "measurements": [
+        79
+      ],
+      "at": [
+        80
+      ],
+      "545": [
+        81
+      ],
+      "monitoring": [
+        82,
+        178,
+        209,
+        218,
+        230
+      ],
+      "sites": [
+        83
+      ],
+      "from": [
+        84
+      ],
+      "September": [
+        85
+      ],
+      "2019": [
+        86
+      ],
+      "March": [
+        88
+      ],
+      "2021.": [
+        89
+      ],
+      "The": [
+        90
+      ],
+      "data": [
+        91,
+        158,
+        170,
+        234,
+        281
+      ],
+      "were": [
+        92,
+        191,
+        268
+      ],
+      "used": [
+        93,
+        146,
+        161,
+        303
+      ],
+      "evaluate": [
+        95
+      ],
+      "potential": [
+        97
+      ],
+      "for": [
+        101,
+        124,
+        162
+      ],
+      "research": [
+        102,
+        319
+      ],
+      "pollution": [
+        105,
+        242
+      ],
+      "bodies.": [
+        108
+      ],
+      "pre-investigation,": [
+        111
+      ],
+      "we": [
+        112
+      ],
+      "proved": [
+        113
+      ],
+      "that": [
+        114
+      ],
+      "test": [
+        116
+      ],
+      "strips": [
+        117
+      ],
+      "suitable": [
+        119
+      ],
+      "measurement": [
+        122,
+        152,
+        284,
+        288
+      ],
+      "method": [
+        123
+      ],
+      "approach": [
+        128,
+        143
+      ],
+      "provide": [
+        130,
+        235
+      ],
+      "an": [
+        131,
+        149,
+        321
+      ],
+      "overview": [
+        132,
+        238
+      ],
+      "pollution.": [
+        135
+      ],
+      "We": [
+        136
+      ],
+      "then": [
+        137
+      ],
+      "analyzed": [
+        138
+      ],
+      "whether": [
+        139,
+        168
+      ],
+      "can": [
+        144,
+        159,
+        301
+      ],
+      "be": [
+        145,
+        160,
+        302
+      ],
+      "establish": [
+        148,
+        206
+      ],
+      "area-wide": [
+        150
+      ],
+      "representative": [
+        151,
+        208
+      ],
+      "network,": [
+        153
+      ],
+      "what": [
+        155
+      ],
+      "extent": [
+        156
+      ],
+      "spatial": [
+        163,
+        187,
+        215,
+        306
+      ],
+      "temporal": [
+        165,
+        308
+      ],
+      "analyses,": [
+        166
+      ],
+      "consistent": [
+        172
+      ],
+      "results": [
+        175,
+        285
+      ],
+      "other": [
+        177
+      ],
+      "initiatives.": [
+        179
+      ],
+      "For": [
+        180
+      ],
+      "purpose,": [
+        182
+      ],
+      "geoprocessing": [
+        183
+      ],
+      "tools,": [
+        184
+      ],
+      "such": [
+        185,
+        254
+      ],
+      "joins": [
+        188
+      ],
+      "heatmaps,": [
+        190
+      ],
+      "combined": [
+        192
+      ],
+      "descriptive": [
+        194
+      ],
+      "statistics": [
+        195
+      ],
+      "nonparametric": [
+        197
+      ],
+      "statistical": [
+        198
+      ],
+      "tests.": [
+        199
+      ],
+      "Although": [
+        200
+      ],
+      "it": [
+        201
+      ],
+      "not": [
+        203
+      ],
+      "network": [
+        210
+      ],
+      "due": [
+        211
+      ],
+      "uneven": [
+        214
+      ],
+      "distribution": [
+        216
+      ],
+      "sites,": [
+        219
+      ],
+      "large": [
+        221
+      ],
+      "part": [
+        222
+      ],
+      "intended": [
+        225
+      ],
+      "area": [
+        226
+      ],
+      "covered": [
+        228
+      ],
+      "sites.": [
+        231
+      ],
+      "Thus,": [
+        232
+      ],
+      "good": [
+        237
+      ],
+      "region": [
+        245
+      ],
+      "shed": [
+        247
+      ],
+      "light": [
+        248
+      ],
+      "influencing": [
+        250,
+        310
+      ],
+      "factors.": [
+        251
+      ],
+      "Spatial": [
+        252
+      ],
+      "impacts,": [
+        253
+      ],
+      "land": [
+        256
+      ],
+      "cover": [
+        257
+      ],
+      "use": [
+        259
+      ],
+      "hydrogeological": [
+        261
+      ],
+      "conditions,": [
+        262
+      ],
+      "seasonal": [
+        266
+      ],
+      "impacts": [
+        267
+      ],
+      "statistically": [
+        269
+      ],
+      "evidenced": [
+        270
+      ],
+      "data.": [
+        275
+      ],
+      "Furthermore,": [
+        276
+      ],
+      "consistency": [
+        278
+      ],
+      "established": [
+        287
+      ],
+      "initiatives": [
+        289
+      ],
+      "confirm": [
+        290
+      ],
+      "quality": [
+        292
+      ],
+      "dataset.": [
+        297
+      ],
+      "Accordingly,": [
+        298
+      ],
+      "investigate": [
+        305
+      ],
+      "factors": [
+        309
+      ],
+      "pollution,": [
+        312
+      ],
+      "thus": [
+        314
+      ],
+      "contributes": [
+        315
+      ],
+      "conservation": [
+        318
+      ],
+      "innovative": [
+        322
+      ],
+      "approach.": [
+        323
+      ]
+    },
+    "abstract_inverted_index_v3": null,
+    "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4289731676",
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-04-26T18:06:36.082560",
+    "created_date": "2022-08-04"
+  },
+  {
+    "id": "https://openalex.org/W2955529917",
+    "doi": null,
+    "title": "The Future of Water Research: Supporting the implementation of citizen science data collection by investigating the current water quality and quantity situation in the main water sources of the Kathmandu Valley",
+    "display_name": "The Future of Water Research: Supporting the implementation of citizen science data collection by investigating the current water quality and quantity situation in the main water sources of the Kathmandu Valley",
+    "relevance_score": 69.51054,
+    "publication_year": 2017,
+    "publication_date": "2017-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W2955529917",
+      "mag": "2955529917"
+    },
+    "language": "en",
+    "primary_location": {
+      "is_oa": false,
+      "landing_page_url": "https://repository.tudelft.nl/islandora/object/uuid%3A6fdc63f7-df09-411d-8131-8b804d921b55",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    "type": "article",
+    "type_crossref": "journal-article",
+    "indexed_in": [],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5037458429",
+          "display_name": "Sylvia van Doorn",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Sylvia van Doorn",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5008584946",
+          "display_name": "Margot Haitsma Mulier",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Margot Haitsma Mulier",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5028579171",
+          "display_name": "Nikiforos Koliolios",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Nikiforos Koliolios",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5038623992",
+          "display_name": "Ingo van Lohuizen",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ingo van Lohuizen",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5015217102",
+          "display_name": "Jasper Schakel",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jasper Schakel",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5072690917",
+          "display_name": "Lisa Verschuren",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Lisa Verschuren",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      }
+    ],
+    "institution_assertions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.390047,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 63,
+      "max": 71
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10930",
+      "display_name": "Flood Risk Assessment and Management",
+      "score": 0.9422,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10930",
+        "display_name": "Flood Risk Assessment and Management",
+        "score": 0.9422,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2306",
+          "display_name": "Global and Planetary Change"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11490",
+        "display_name": "Hydrological Forecasting Using AI",
+        "score": 0.901,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C76177295",
+        "wikidata": "https://www.wikidata.org/wiki/Q161598",
+        "display_name": "Groundwater",
+        "level": 2,
+        "score": 0.67118376
+      },
+      {
+        "id": "https://openalex.org/C2780797713",
+        "wikidata": "https://www.wikidata.org/wiki/Q625376",
+        "display_name": "Water quality",
+        "level": 2,
+        "score": 0.6070291
+      },
+      {
+        "id": "https://openalex.org/C39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "level": 0,
+        "score": 0.5996958
+      },
+      {
+        "id": "https://openalex.org/C76886044",
+        "wikidata": "https://www.wikidata.org/wiki/Q2883300",
+        "display_name": "Hydrology (agriculture)",
+        "level": 2,
+        "score": 0.55057317
+      },
+      {
+        "id": "https://openalex.org/C39769621",
+        "wikidata": "https://www.wikidata.org/wiki/Q3342272",
+        "display_name": "Water table",
+        "level": 3,
+        "score": 0.5384239
+      },
+      {
+        "id": "https://openalex.org/C524765639",
+        "wikidata": "https://www.wikidata.org/wiki/Q1501619",
+        "display_name": "Water resource management",
+        "level": 1,
+        "score": 0.5235369
+      },
+      {
+        "id": "https://openalex.org/C75622301",
+        "wikidata": "https://www.wikidata.org/wiki/Q208791",
+        "display_name": "Aquifer",
+        "level": 3,
+        "score": 0.5068503
+      },
+      {
+        "id": "https://openalex.org/C8625798",
+        "wikidata": "https://www.wikidata.org/wiki/Q752112",
+        "display_name": "Surface water",
+        "level": 2,
+        "score": 0.44631535
+      },
+      {
+        "id": "https://openalex.org/C2908647359",
+        "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+        "display_name": "Population",
+        "level": 2,
+        "score": 0.4401976
+      },
+      {
+        "id": "https://openalex.org/C153823671",
+        "wikidata": "https://www.wikidata.org/wiki/Q1049799",
+        "display_name": "Water resources",
+        "level": 2,
+        "score": 0.41422647
+      },
+      {
+        "id": "https://openalex.org/C87717796",
+        "wikidata": "https://www.wikidata.org/wiki/Q146326",
+        "display_name": "Environmental engineering",
+        "level": 1,
+        "score": 0.34053445
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.14866894
+      },
+      {
+        "id": "https://openalex.org/C18903297",
+        "wikidata": "https://www.wikidata.org/wiki/Q7150",
+        "display_name": "Ecology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C187320778",
+        "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+        "display_name": "Geotechnical engineering",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C149923435",
+        "wikidata": "https://www.wikidata.org/wiki/Q37732",
+        "display_name": "Demography",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "is_oa": false,
+        "landing_page_url": "https://repository.tudelft.nl/islandora/object/uuid%3A6fdc63f7-df09-411d-8131-8b804d921b55",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/6",
+        "display_name": "Clean water and sanitation",
+        "score": 0.76
+      }
+    ],
+    "grants": [],
+    "datasets": [],
+    "versions": [],
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W3199625968",
+      "https://openalex.org/W3193837274",
+      "https://openalex.org/W3095856746",
+      "https://openalex.org/W3092357105",
+      "https://openalex.org/W3046423696",
+      "https://openalex.org/W3023886438",
+      "https://openalex.org/W3006410624",
+      "https://openalex.org/W2996882840",
+      "https://openalex.org/W273117336",
+      "https://openalex.org/W2524857438",
+      "https://openalex.org/W2339998167",
+      "https://openalex.org/W2303459668",
+      "https://openalex.org/W2181740789",
+      "https://openalex.org/W2159376803",
+      "https://openalex.org/W215416307",
+      "https://openalex.org/W2145776501",
+      "https://openalex.org/W2002700853",
+      "https://openalex.org/W1753760317",
+      "https://openalex.org/W138322773",
+      "https://openalex.org/W1152799411"
+    ],
+    "abstract_inverted_index": {
+      "Kathmandu": [
+        0,
+        51,
+        90,
+        131,
+        169,
+        353
+      ],
+      "is": [
+        1,
+        55,
+        92,
+        106,
+        228,
+        239,
+        251,
+        264,
+        355,
+        434,
+        507,
+        538
+      ],
+      "a": [
+        2,
+        6,
+        15,
+        22,
+        61,
+        359,
+        532
+      ],
+      "prime": [
+        3
+      ],
+      "example": [
+        4
+      ],
+      "of": [
+        5,
+        27,
+        34,
+        45,
+        60,
+        119,
+        126,
+        206,
+        309,
+        343,
+        348,
+        381,
+        389,
+        408,
+        412,
+        430,
+        458,
+        492,
+        515,
+        536
+      ],
+      "city": [
+        7
+      ],
+      "exhibiting": [
+        8
+      ],
+      "both": [
+        9
+      ],
+      "rapid": [
+        10
+      ],
+      "metropolitan": [
+        11
+      ],
+      "region": [
+        12
+      ],
+      "expansion": [
+        13
+      ],
+      "and": [
+        14,
+        25,
+        30,
+        38,
+        63,
+        79,
+        97,
+        124,
+        133,
+        159,
+        184,
+        216,
+        223,
+        237,
+        257,
+        267,
+        365,
+        391,
+        443,
+        478,
+        526
+      ],
+      "population": [
+        16
+      ],
+      "boom.": [
+        17
+      ],
+      "This": [
+        18,
+        112
+      ],
+      "growth": [
+        19
+      ],
+      "leads": [
+        20
+      ],
+      "to": [
+        21,
+        70,
+        94,
+        101,
+        115,
+        313,
+        338,
+        357,
+        373,
+        376,
+        420,
+        425,
+        436,
+        454,
+        485,
+        509
+      ],
+      "water": [
+        23,
+        47,
+        66,
+        74,
+        127,
+        157,
+        209,
+        231,
+        259,
+        269,
+        297,
+        392,
+        460,
+        481
+      ],
+      "stress": [
+        24
+      ],
+      "pollution": [
+        26
+      ],
+      "the": [
+        28,
+        42,
+        46,
+        50,
+        58,
+        86,
+        89,
+        98,
+        104,
+        109,
+        117,
+        122,
+        130,
+        135,
+        145,
+        168,
+        174,
+        194,
+        197,
+        204,
+        207,
+        221,
+        247,
+        282,
+        292,
+        303,
+        307,
+        317,
+        326,
+        340,
+        352,
+        378,
+        382,
+        387,
+        406,
+        413,
+        426,
+        431,
+        456,
+        490,
+        496,
+        500,
+        513,
+        516,
+        522
+      ],
+      "surface": [
+        29
+      ],
+      "groundwater.": [
+        31
+      ],
+      "The": [
+        32,
+        53,
+        147,
+        410,
+        468
+      ],
+      "lack": [
+        33,
+        59
+      ],
+      "proper": [
+        35
+      ],
+      "waste": [
+        36
+      ],
+      "management": [
+        37
+      ],
+      "sanitation": [
+        39
+      ],
+      "results": [
+        40,
+        198,
+        293
+      ],
+      "in": [
+        41,
+        49,
+        129,
+        144,
+        151,
+        171,
+        370,
+        489
+      ],
+      "ongoing": [
+        43
+      ],
+      "deterioration": [
+        44
+      ],
+      "quality": [
+        48,
+        125,
+        158,
+        205,
+        232,
+        270,
+        298,
+        393,
+        461,
+        482
+      ],
+      "Valley.": [
+        52
+      ],
+      "situation": [
+        54
+      ],
+      "worsened": [
+        56
+      ],
+      "by": [
+        57,
+        141,
+        243
+      ],
+      "complete": [
+        62
+      ],
+      "safe": [
+        64
+      ],
+      "drinking": [
+        65
+      ],
+      "network": [
+        67,
+        347
+      ],
+      "leading": [
+        68
+      ],
+      "citizens": [
+        69
+      ],
+      "pivot": [
+        71
+      ],
+      "on": [
+        72,
+        121
+      ],
+      "conventional": [
+        73
+      ],
+      "sources": [
+        75,
+        128
+      ],
+      "like": [
+        76
+      ],
+      "stone": [
+        77
+      ],
+      "spouts": [
+        78,
+        266
+      ],
+      "bore": [
+        80
+      ],
+      "wells.": [
+        81
+      ],
+      "Consequently,": [
+        82
+      ],
+      "groundwater": [
+        83,
+        99,
+        155,
+        497
+      ],
+      "extraction,": [
+        84
+      ],
+      "from": [
+        85,
+        164,
+        281
+      ],
+      "aquifer": [
+        87
+      ],
+      "under": [
+        88
+      ],
+      "Valley,": [
+        91
+      ],
+      "expected": [
+        93,
+        508
+      ],
+      "keep": [
+        95
+      ],
+      "increasing": [
+        96,
+        399
+      ],
+      "table": [
+        100
+      ],
+      "drop": [
+        102
+      ],
+      "as": [
+        103,
+        447
+      ],
+      "recharge": [
+        105,
+        498,
+        525
+      ],
+      "less": [
+        107
+      ],
+      "than": [
+        108
+      ],
+      "extraction": [
+        110
+      ],
+      "rate.": [
+        111
+      ],
+      "research": [
+        113,
+        440
+      ],
+      "aims": [
+        114
+      ],
+      "address": [
+        116
+      ],
+      "influences": [
+        118
+      ],
+      "land-use": [
+        120,
+        160,
+        256,
+        390,
+        527
+      ],
+      "quantity": [
+        123
+      ],
+      "Valley": [
+        132,
+        170,
+        354
+      ],
+      "how": [
+        134
+      ],
+      "necessary": [
+        136
+      ],
+      "data": [
+        137,
+        161,
+        181,
+        312,
+        367
+      ],
+      "can": [
+        138,
+        324,
+        472
+      ],
+      "be": [
+        139,
+        421,
+        465,
+        473,
+        486,
+        510,
+        529
+      ],
+      "collected": [
+        140,
+        163
+      ],
+      "citizen": [
+        142,
+        178,
+        315,
+        383,
+        396,
+        414,
+        432,
+        493
+      ],
+      "science": [
+        143,
+        179,
+        384,
+        397,
+        415
+      ],
+      "future.": [
+        146
+      ],
+      "fieldwork": [
+        148
+      ],
+      "took": [
+        149
+      ],
+      "place": [
+        150
+      ],
+      "August": [
+        152
+      ],
+      "2017": [
+        153
+      ],
+      "when": [
+        154,
+        335,
+        402,
+        423
+      ],
+      "level,": [
+        156
+      ],
+      "were": [
+        162,
+        182,
+        445
+      ],
+      "seven": [
+        165
+      ],
+      "watersheds": [
+        166
+      ],
+      "within": [
+        167,
+        351
+      ],
+      "Nepal.": [
+        172
+      ],
+      "At": [
+        173
+      ],
+      "same": [
+        175,
+        283
+      ],
+      "time,": [
+        176
+      ],
+      "existing": [
+        177
+      ],
+      "precipitation": [
+        180,
+        329
+      ],
+      "processed": [
+        183
+      ],
+      "juxtaposed": [
+        185
+      ],
+      "with": [
+        186,
+        291,
+        475,
+        480
+      ],
+      "respective": [
+        187
+      ],
+      "satellite": [
+        188,
+        311,
+        322,
+        366
+      ],
+      "data,": [
+        189
+      ],
+      "namely": [
+        190
+      ],
+      "IMERG": [
+        191
+      ],
+      "GPM.": [
+        192
+      ],
+      "On": [
+        193,
+        246
+      ],
+      "one": [
+        195
+      ],
+      "hand,": [
+        196,
+        249
+      ],
+      "confirm": [
+        199
+      ],
+      "our": [
+        200
+      ],
+      "initial": [
+        201
+      ],
+      "assumption": [
+        202
+      ],
+      "that": [
+        203,
+        229,
+        265,
+        276,
+        295,
+        321
+      ],
+      "river": [
+        208
+      ],
+      "dramatically": [
+        210
+      ],
+      "deteriorates": [
+        211
+      ],
+      "(except": [
+        212,
+        233
+      ],
+      "for": [
+        213,
+        499
+      ],
+      "nitrite,": [
+        214
+      ],
+      "nitrate": [
+        215
+      ],
+      "phosphate)": [
+        217
+      ],
+      "while": [
+        218
+      ],
+      "flowing": [
+        219
+      ],
+      "through": [
+        220
+      ],
+      "agricultural": [
+        222
+      ],
+      "urban": [
+        224
+      ],
+      "areas.": [
+        225
+      ],
+      "Another": [
+        226
+      ],
+      "observation": [
+        227
+      ],
+      "spout": [
+        230
+      ],
+      "E.": [
+        234
+      ],
+      "coli,": [
+        235
+      ],
+      "turbidity": [
+        236,
+        444
+      ],
+      "iron)": [
+        238
+      ],
+      "also": [
+        240
+      ],
+      "negatively": [
+        241
+      ],
+      "influenced": [
+        242
+      ],
+      "human": [
+        244
+      ],
+      "activities.": [
+        245
+      ],
+      "other": [
+        248,
+        459
+      ],
+      "there": [
+        250
+      ],
+      "no": [
+        252
+      ],
+      "clear": [
+        253
+      ],
+      "link": [
+        254
+      ],
+      "between": [
+        255,
+        363,
+        524
+      ],
+      "wells\u2019": [
+        258
+      ],
+      "quality.": [
+        260
+      ],
+      "A": [
+        261,
+        285,
+        518
+      ],
+      "strange": [
+        262
+      ],
+      "finding": [
+        263
+      ],
+      "wells": [
+        268,
+        537
+      ],
+      "do": [
+        271,
+        278
+      ],
+      "not": [
+        272,
+        279
+      ],
+      "behave": [
+        273
+      ],
+      "similarly": [
+        274
+      ],
+      "showcasing": [
+        275
+      ],
+      "they": [
+        277,
+        332
+      ],
+      "originate": [
+        280
+      ],
+      "aquifer.": [
+        284
+      ],
+      "health": [
+        286
+      ],
+      "risk": [
+        287
+      ],
+      "analysis": [
+        288,
+        319
+      ],
+      "was": [
+        289,
+        418,
+        503
+      ],
+      "conducted": [
+        290
+      ],
+      "indicating": [
+        294
+      ],
+      "some": [
+        296
+      ],
+      "parameters": [
+        299,
+        451,
+        462
+      ],
+      "have": [
+        300
+      ],
+      "values": [
+        301
+      ],
+      "exceeding": [
+        302
+      ],
+      "WHO": [
+        304
+      ],
+      "standards.": [
+        305
+      ],
+      "Regarding": [
+        306
+      ],
+      "option": [
+        308
+      ],
+      "implementing": [
+        310
+      ],
+      "facilitate": [
+        314
+      ],
+      "science,": [
+        316
+      ],
+      "contingency": [
+        318
+      ],
+      "shows": [
+        320,
+        398
+      ],
+      "products": [
+        323
+      ],
+      "detect": [
+        325
+      ],
+      "general": [
+        327
+      ],
+      "temporal": [
+        328,
+        379
+      ],
+      "pattern": [
+        330
+      ],
+      "although": [
+        331
+      ],
+      "perform": [
+        333
+      ],
+      "poorly": [
+        334
+      ],
+      "it": [
+        336,
+        506
+      ],
+      "comes": [
+        337
+      ],
+      "estimating": [
+        339
+      ],
+      "correct": [
+        341
+      ],
+      "amounts": [
+        342
+      ],
+      "rainfall.": [
+        344
+      ],
+      "An": [
+        345
+      ],
+      "extended": [
+        346
+      ],
+      "rain": [
+        349
+      ],
+      "gauges": [
+        350
+      ],
+      "vital": [
+        356
+      ],
+      "establish": [
+        358
+      ],
+      "strong": [
+        360
+      ],
+      "linear": [
+        361
+      ],
+      "relationship": [
+        362
+      ],
+      "ground": [
+        364,
+        416
+      ],
+      "which": [
+        368,
+        463
+      ],
+      "is,": [
+        369
+      ],
+      "turn,": [
+        371
+      ],
+      "essential": [
+        372,
+        435
+      ],
+      "enable": [
+        374
+      ],
+      "GPM": [
+        375
+      ],
+      "enhance": [
+        377
+      ],
+      "resolution": [
+        380
+      ],
+      "measurements.": [
+        385
+      ],
+      "Furthermore,": [
+        386
+      ],
+      "implementation": [
+        388
+      ],
+      "measurements": [
+        394
+      ],
+      "into": [
+        395,
+        404
+      ],
+      "potential": [
+        400
+      ],
+      "especially": [
+        401
+      ],
+      "taking": [
+        403
+      ],
+      "account": [
+        405
+      ],
+      "contribution": [
+        407
+      ],
+      "ODK.": [
+        409
+      ],
+      "accuracy": [
+        411
+      ],
+      "truthing": [
+        417
+      ],
+      "found": [
+        419
+      ],
+      "33%": [
+        422
+      ],
+      "compared": [
+        424
+      ],
+      "experts.": [
+        427
+      ],
+      "Proper": [
+        428
+      ],
+      "training": [
+        429
+      ],
+      "scientists": [
+        433
+      ],
+      "improve": [
+        437
+      ],
+      "performance.": [
+        438
+      ],
+      "During": [
+        439
+      ],
+      "temperature,": [
+        441
+      ],
+      "EC": [
+        442
+      ],
+      "labelled": [
+        446
+      ],
+      "indication": [
+        448,
+        469
+      ],
+      "parameters.": [
+        449
+      ],
+      "Those": [
+        450
+      ],
+      "are": [
+        452
+      ],
+      "used": [
+        453
+      ],
+      "indicate": [
+        455
+      ],
+      "range": [
+        457
+      ],
+      "cannot": [
+        464
+      ],
+      "measured": [
+        466,
+        474
+      ],
+      "easily.": [
+        467
+      ],
+      "parameters,": [
+        470
+      ],
+      "however,": [
+        471
+      ],
+      "affordable": [
+        476
+      ],
+      "equipment": [
+        477
+      ],
+      "together": [
+        479
+      ],
+      "strips": [
+        483
+      ],
+      "prove": [
+        484
+      ],
+      "powerful": [
+        487
+      ],
+      "tools": [
+        488
+      ],
+      "hands": [
+        491
+      ],
+      "science.": [
+        494
+      ],
+      "Finally,": [
+        495
+      ],
+      "monsoon": [
+        501
+      ],
+      "period": [
+        502
+      ],
+      "determined,": [
+        504
+      ],
+      "but": [
+        505
+      ],
+      "drastically": [
+        511
+      ],
+      "reduced": [
+        512
+      ],
+      "rest": [
+        514
+      ],
+      "year.": [
+        517
+      ],
+      "solid": [
+        519
+      ],
+      "conclusion": [
+        520
+      ],
+      "about": [
+        521
+      ],
+      "relation": [
+        523
+      ],
+      "can\u2019t": [
+        528
+      ],
+      "made": [
+        530
+      ],
+      "unless": [
+        531
+      ],
+      "more": [
+        533
+      ],
+      "substantial": [
+        534
+      ],
+      "number": [
+        535
+      ],
+      "regularly": [
+        539
+      ],
+      "sampled.": [
+        540
+      ]
+    },
+    "abstract_inverted_index_v3": null,
+    "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2955529917",
+    "counts_by_year": [
+      {
+        "year": 2021,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-04-23T16:44:05.510346",
+    "created_date": "2019-07-12"
+  }
+]
